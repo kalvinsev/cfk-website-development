@@ -15,7 +15,7 @@ export default function HeaderMobile() {
             </p>
           </div>
         </div>
-        <img src="images/3-logo.png" />
+        <img src={"/static/images/3-logo.png"} />
         <div className="right-side-desktop-header-text">
           <p>
             THE ONLY <span>3</span> YOU NEED!
@@ -23,7 +23,7 @@ export default function HeaderMobile() {
         </div>
       </div>
       <div className="header-body-image" style={{ position: "relative" }}>
-        <img src="/images/desktop-header-img.jpg" />
+        <img src={"/static/images/desktop-header-img.jpg"} />
         <div className="free-evaluation-button-desktop-container" id="febc">
           <button
             type="submit"

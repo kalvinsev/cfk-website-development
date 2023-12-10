@@ -8,11 +8,11 @@ export default function HeaderMobile() {
         <div className="navigation-button">
           <NavigationMenu />
         </div>
-        <img src="images/3-logo.png" />
+        <img src={"/static/images/3-logo.png"} />
         <div></div>
       </div>
       <div className="header-body-image" style={{ position: "relative" }}>
-        <img src="/images/versionB.jpg" />
+        <img src={"/static/images/versionB.jpg"} />
         <div className="header-p-container">
           <p>
             <span style={{ fontSize: "20px", backgroundColor: "transparent" }}>
