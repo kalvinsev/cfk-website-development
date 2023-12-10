@@ -19,7 +19,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="VAS-section">
+    <div className="header-container">
       {width < breakpoint ? <MobileHeader /> : <DesktopHeader />}
     </div>
   );

@@ -214,7 +214,7 @@ div .mobile-home-body {
   border: none;
   background-color: white;
   list-style: none;
-  padding: 20px;
+  padding: 15px;
 }
 
 .nav-text a {
@@ -233,3 +233,15 @@ div .mobile-home-body {
 }
 
 /* end nav menu styling */
+
+div .social-icons-container {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20%;
+}
+
+.icon-link {
+  background-color: white;
+  padding: 15px;
+}
