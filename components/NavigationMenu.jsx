@@ -27,7 +27,11 @@ export default function NavigationMenu() {
         <div style={{ paddingTop: "50px", backgroundColor: "white" }}>
           {SidebarData.map((item, index) => {
             return (
-              <div style={{ backgroundColor: "white" }} className={item.cName}>
+              <div
+                key={index}
+                style={{ backgroundColor: "white" }}
+                className={item.cName}
+              >
                 <Link href={item.path}>{item.title}</Link>
               </div>
             );
