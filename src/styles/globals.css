@@ -101,6 +101,10 @@ div .header-p-container {
   flex-direction: column;
 }
 
+div .header-p-container span {
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+}
+
 .header-p-container {
   position: absolute;
   background-color: transparent;

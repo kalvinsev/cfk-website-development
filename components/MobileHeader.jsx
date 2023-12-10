@@ -17,18 +17,16 @@ export default function HeaderMobile() {
       <div className="header-body-image" style={{ position: "relative" }}>
         <img src={"/static/images/VersionB.jpg"} />
         <div className="header-p-container">
-          <p>
-            <span
-              style={{
-                fontSize: "20px",
-                backgroundColor: "transparent",
-                fontWeight: "bold",
-                textTransform: "uppercase",
-              }}
-            >
-              Trial Lawyers For The People
-            </span>
-          </p>
+          <span
+            style={{
+              backgroundColor: "transparent",
+              fontWeight: "bold",
+              textTransform: "uppercase",
+            }}
+          >
+            Trial Lawyers For The People
+          </span>
+
           <p>Specializing in Civil Rights</p>
           <p>Personal Injury and</p>
           <p>Employment Law</p>
