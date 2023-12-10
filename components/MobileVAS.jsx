@@ -1,7 +1,9 @@
 export default function MobileVas() {
   return (
     <div className="verdicts-and-settlements-container">
-      <span className="vas-text">VERDICTS AND SETTLEMENTS</span>
+      <div className="vas-text">
+        <span>VERDICTS AND SETTLEMENTS</span>
+      </div>
       <p>
         CFK has litigated thousands of cases and have tried over 200 jury trials
         to verdict. We pride ourselves in not only being aggressive and
@@ -10,17 +12,17 @@ export default function MobileVas() {
         powerful defendants, including the Los Angeles County Sherri’s
         Department and TGI Fridays Restaurant.
       </p>
-      <div className="vas-stats">
-        <span className="display-counter">$40,000,000.00</span>
-        <div>
+      <div className="vas-stats-container">
+        <div className="display-counter">
+          <span>$40,000,000.00</span>
           <p>WRONGFUL DEATH</p>
         </div>
-        <span className="display-counter">$3,1000,000.00</span>
-        <div>
+        <div className="display-counter">
+          <span>$3,1000,000.00</span>
           <p>CONSTITUTIONAL VIOLATIONS</p>
         </div>
-        <span className="display-counter">$1,100,000.00</span>
-        <div>
+        <div className="display-counter">
+          <span>$1,100,000.00</span>
           <p>CONSTITUTIONAL VIOLATIONS</p>
         </div>
       </div>

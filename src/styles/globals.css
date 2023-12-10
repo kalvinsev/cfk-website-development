@@ -4,7 +4,6 @@
 
 @font-face {
   font-family: "Montserrat", sans-serif;
-
   src: url("/public/fonts/MontserratRegular.ttf");
 }
 
@@ -42,18 +41,11 @@ div .header-desktop {
 
 div .header-desktop-bar {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 82px;
-  padding: 20px 0 20px 0;
-}
-
-div .header-desktop-bar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 82px;
   padding: 20px 0 20px 0;
+  background-color: #550707;
 }
 
 div .desktop-header-content {
@@ -67,22 +59,27 @@ div .header-desktop-bar p {
   color: white;
   font-size: 20px;
   padding: 0 20px 0 20px;
+  background-color: #550707;
+  border: none;
 }
 
 div .header-desktop-bar span {
   color: white;
   font-size: 30px;
+  background-color: #550707;
 }
 
 div .header-desktop-leftside {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #550707;
 }
 
 div .header-desktop-bar img {
   width: 150px;
   height: 45px;
+  background-color: #550707;
 }
 
 div .header-mobile-bar {
@@ -263,6 +260,8 @@ div .social-icons-container {
 div .verdicts-and-settlements-container {
   color: white;
   background-color: #232323;
+  /* background-color: red; */
+  text-align: center;
 }
 
 div .verdicts-and-settlements-container span {
@@ -271,19 +270,42 @@ div .verdicts-and-settlements-container span {
 
 div .verdicts-and-settlements-container p {
   background-color: #232323;
+  padding: 0 2rem 0 2rem;
+  line-height: 30px;
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+}
+
+div .vas-stats-container-mobile {
+  background-color: #232323;
+  padding: 0 0 2rem 0;
+}
+
+div .vas-stats-container-desktop {
+  background-color: #232323;
+  padding: 0 0 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 div .vas-stats {
-  background-color: #232323;
+  padding: 2rem;
 }
 
-span.vas-text {
+div .vas-text {
   font-size: calc(var(--font-heading-scale) * 2.2rem);
+  padding: 2rem 0 2rem 0;
 }
 
-span.display-counter {
+div .display-counter {
+  padding: 2rem;
+}
+
+div .display-counter span {
   color: #c39d63;
+  font-size: calc(var(--font-heading-scale) * 2.4rem);
   background-color: #232323;
+  font-weight: bold;
 }
 
 /* verdicts and settelments styling end */
