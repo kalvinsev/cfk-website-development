@@ -24,7 +24,13 @@ export default function NavigationMenu() {
             onClick={showSideBar}
           />
         </Link>
-        <div style={{ paddingTop: "50px", backgroundColor: "white" }}>
+        <div
+          style={{
+            paddingTop: "50px",
+            backgroundColor: "white",
+            overflowY: "scroll",
+          }}
+        >
           {SidebarData.map((item, index) => {
             return (
               <div
