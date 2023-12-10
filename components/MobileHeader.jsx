@@ -12,7 +12,7 @@ export default function HeaderMobile() {
         <div></div>
       </div>
       <div className="header-body-image" style={{ position: "relative" }}>
-        <img src={"/static/images/versionB.jpg"} />
+        <img src={"/static/images/VersionB.jpg"} />
         <div className="header-p-container">
           <p>
             <span style={{ fontSize: "20px", backgroundColor: "transparent" }}>
