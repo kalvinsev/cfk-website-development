@@ -27,7 +27,11 @@ export default function NavigationMenu() {
   return (
     <div className="navigation-menu">
       <Link href="#" className="nav-burger-button">
-        <HiIcons.HiBars3 onClick={showSideBar} size={35} />
+        <HiIcons.HiBars3
+          onClick={showSideBar}
+          size={35}
+          style={{ backgroundColor: "rgb(85, 7, 7)" }}
+        />
       </Link>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <Link href="#" className="menu-close">

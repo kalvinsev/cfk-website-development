@@ -13,7 +13,7 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat";
-  background-color: rgb(85, 7, 7);
+  background-color: #232323;
 }
 
 html {
@@ -30,6 +30,7 @@ div .header-mobile {
   height: 100%;
   padding: 0;
   margin: 0;
+  border: none;
 }
 
 div .header-desktop {
@@ -90,6 +91,7 @@ div .header-mobile-bar {
   align-items: center;
   height: 82px;
   padding: 20px 0 20px 0;
+  background-color: rgb(85, 7, 7);
 }
 
 div .header-mobile-bar img {
@@ -118,15 +120,22 @@ div .header-p-container {
 div .header-body-image img {
   width: 100%;
   height: 45%;
+  margin: 0;
+  padding: 0;
 }
 
-div .header-body-image > p {
-  font-size: 20px;
-  font-size: calc(var(--font-heading-scale) * 1.5rem);
+div .header-body-image {
+  margin: 0;
+  padding: 0;
+}
+
+div .header-body-image p {
+  font-size: calc(var(--font-heading-scale) * 1.2rem);
   color: #807e7e;
   position: "absolute";
   background-color: "transparent";
   text-align: right;
+  text-transform: uppercase;
 }
 
 div .navigation-button {
@@ -134,10 +143,12 @@ div .navigation-button {
   align-items: center;
   justify-content: center;
   padding-left: 20px;
+  background-color: rgb(85, 7, 7);
 }
 
 .nav-burger-button {
   color: white;
+  background-color: rgb(85, 7, 7);
 }
 
 div .mobile-home-body {
@@ -168,6 +179,7 @@ div .mobile-home-body {
   border-radius: 5px;
   transition: color 0.5s ease;
   transition: background 0.5s ease;
+  background-color: rgb(85, 7, 7);
 }
 
 .free-evaluation-button:hover {
@@ -245,3 +257,33 @@ div .social-icons-container {
   background-color: white;
   padding: 15px;
 }
+
+/* verdicts and settelments styling begin */
+
+div .verdicts-and-settlements-container {
+  color: white;
+  background-color: #232323;
+}
+
+div .verdicts-and-settlements-container span {
+  background-color: #232323;
+}
+
+div .verdicts-and-settlements-container p {
+  background-color: #232323;
+}
+
+div .vas-stats {
+  background-color: #232323;
+}
+
+span.vas-text {
+  font-size: calc(var(--font-heading-scale) * 2.2rem);
+}
+
+span.display-counter {
+  color: #c39d63;
+  background-color: #232323;
+}
+
+/* verdicts and settelments styling end */
