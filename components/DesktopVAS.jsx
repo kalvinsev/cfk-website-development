@@ -21,7 +21,7 @@ export default function DesktopVas() {
           <p>WRONGFUL DEATH</p>
         </div>
         <div className="display-counter">
-          <span>$3,1000,000.00</span>
+          <span>$3,100,000.00</span>
           <p>CONSTITUTIONAL VIOLATIONS</p>
         </div>
         <div className="display-counter">

@@ -9,16 +9,16 @@ export default function MobileVas() {
         to verdict. We pride ourselves in not only being aggressive and
         knowledgeable litigators but passionate and experienced trial lawyers.
         We have gotten record breaking trial results against some of the most
-        powerful defendants, including the Los Angeles County Sherri’s
+        powerful defendants, including the Los Angeles County Sherrif's
         Department and TGI Fridays Restaurant.
       </p>
-      <div className="vas-stats-container">
+      <div className="vas-stats-container-mobile">
         <div className="display-counter">
           <span>$40,000,000.00</span>
           <p>WRONGFUL DEATH</p>
         </div>
         <div className="display-counter">
-          <span>$3,1000,000.00</span>
+          <span>$3,100,000.00</span>
           <p>CONSTITUTIONAL VIOLATIONS</p>
         </div>
         <div className="display-counter">

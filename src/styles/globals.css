@@ -20,6 +20,14 @@ html {
   scroll-behavior: smooth;
 }
 
+span {
+  background-color: transparent;
+}
+
+p {
+  background-color: transparent;
+}
+
 div .header-section {
   width: 100;
 }
@@ -301,6 +309,10 @@ div .vas-text {
   padding: 2rem 0 2rem 0;
 }
 
+div .vas-text span {
+  font-weight: bold;
+}
+
 div .display-counter {
   padding: 2rem;
 }
@@ -313,3 +325,99 @@ div .display-counter span {
 }
 
 /* verdicts and settelments styling end */
+
+/* team manufactuers fear section styling begin  */
+
+div .tmf-section-container {
+  background-color: #e2e2e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.etlgr {
+  padding: 2rem;
+  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-weight: bold;
+}
+
+.mission-stmt-snippet {
+  padding: 0 2rem 0 2rem;
+}
+
+.read-more-link {
+  background-color: transparent;
+  color: black;
+}
+
+.read-more-link:hover {
+  background-color: transparent;
+  color: blue;
+}
+
+div .about-us-image {
+  background-color: #e2e2e2;
+}
+
+div .about-us-image img {
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 45%;
+  margin: 0;
+  padding: 2rem;
+}
+
+div .home-page-practice-area-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+div .home-page-practice-area-container-desktop {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+div .practice-area-box {
+  width: 80vw;
+  padding: 20px;
+  margin: 10px 0 10px 0;
+  background-color: #550707;
+  transition: color 0.5s ease;
+  transition: background 0.5s ease;
+}
+
+div .practice-area-desktop {
+  width: 43vw;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  background-color: #550707;
+  transition: color 0.5s ease;
+  transition: background 0.5s ease;
+}
+
+div .practice-area-box:hover {
+  background-color: black;
+}
+
+.mission-stmt-snippet {
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+  line-height: 30px;
+}
+
+.practice-areas-link {
+  display: flex;
+  font-style: bold;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+/* team manufactuers fear section styling begin */
