@@ -9,7 +9,7 @@ export default function MobileVas() {
         to verdict. We pride ourselves in not only being aggressive and
         knowledgeable litigators but passionate and experienced trial lawyers.
         We have gotten record breaking trial results against some of the most
-        powerful defendants, including the Los Angeles County Sherrif's
+        powerful defendants, including the Los Angeles County Sherrif&aposs
         Department and TGI Fridays Restaurant.
       </p>
       <div className="vas-stats-container-mobile">
