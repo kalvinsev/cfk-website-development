@@ -5,18 +5,16 @@ export default function MobileFooter() {
       <div className="footer-location-container">
         {locations.map((item, index) => {
           return (
-            <div>
-              <div className="location-items" key={index}>
-                <span
-                  className={item.locationClass}
-                  style={{ fontWeight: "700" }}
-                >
-                  {item.location}
-                </span>
-                <p>
-                  <span className={item.addressClass}>{item.address}</span>
-                </p>
-              </div>
+            <div className="location-items" key={index}>
+              <span
+                className={item.locationClass}
+                style={{ fontWeight: "700" }}
+              >
+                {item.location}
+              </span>
+              <p>
+                <span className={item.addressClass}>{item.address}</span>
+              </p>
             </div>
           );
         })}
