@@ -36,7 +36,7 @@ export const SidebarData = [
   },
   {
     title: "3-CF-KING-LAW",
-    path: "/",
+    path: "tel:3235464529",
     cName: "nav-text",
   },
   {

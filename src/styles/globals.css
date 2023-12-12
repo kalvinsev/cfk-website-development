@@ -631,3 +631,81 @@ div .cta {
 }
 
 /* carousel styling begin  */
+
+/* footer styling begin */
+
+div .footer-outer-container {
+  color: white;
+  background-color: black;
+}
+
+div .location-items {
+  padding: 1rem 5rem;
+  background-color: black;
+  text-align: center;
+}
+
+.location {
+  padding: 1rem 0;
+}
+
+.address {
+}
+
+div .location-items p,
+span {
+  background-color: black;
+}
+
+div .location-items span {
+}
+
+div .misc-container > p,
+span,
+a {
+  background-color: transparent;
+}
+
+div .location-items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+div .misc-container {
+  text-align: center;
+  background-color: black;
+}
+
+div .misc-container-logo-img-container {
+  background-color: black;
+}
+
+div .misc-container img {
+  background-color: black;
+}
+
+div .newsletter-container {
+  background-color: black;
+  padding: 1rem;
+  height: 10rem;
+}
+
+div .social-logos-container {
+}
+
+div .footer-copyright-container {
+  text-align: center;
+  background-color: #232323;
+  padding: 3rem;
+}
+
+div .footer-copyright-container p {
+}
+
+.contact-us-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer styling end */
