@@ -10,12 +10,10 @@ export default function MobileTMF() {
         people and families who have been harmed at the hands of law
         enforcement, experienced discrimination in the workplace or suffered a
         severe injury, whether it be physical, mental, or emotional related to a
-        personal injury or automobile collision.
-        <Link href="" className="read-more-link">
-          <span style={{ fontWeight: "bold", textDecoration: "none" }}>
-            {" "}
-            continue reading . . .{" "}
-          </span>
+        personal injury or automobile collision
+        <br />
+        <Link href="/about" className="read-more-link">
+          <span style={{ fontWeight: "600" }}>... continue reading</span>
         </Link>
       </p>
       <div className="about-us-image" style={{ padding: "1.3rem" }}>

@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: "Montserrat-Bold";
-  src: url("/public/fonts/MontserratBold.ttf") format("truetype");
+  src: url("/public/fonts/Montserrat-Bold.woff") format("woff");
   font-style: bold;
   font-weight: 400;
 }
@@ -40,7 +40,7 @@
   padding: 0;
   margin: 0;
   background-color: #232323;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -135,16 +135,51 @@ div .header-mobile-bar img {
 div .header-p-container {
   display: flex;
   flex-direction: column;
+  /* color: red; */
+  color: #807e7e;
+}
+
+div .header-body-image p {
+  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  /* color: #807e7e; */
+  /* color: red; */
+  position: "absolute";
+  background-color: "transparent";
+  text-align: right;
+  text-transform: uppercase;
 }
 
 div .header-p-container span {
   font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
 
+div .header-body-image-desktop p {
+  font-size: calc(var(--font-heading-scale) * 1.4rem);
+  /* color: #807e7e; */
+  color: red;
+  position: "absolute";
+  background-color: "transparent";
+  text-align: right;
+  text-transform: uppercase;
+}
+
+div .header-p-container-desktop span {
+  font-size: calc(var(--font-heading-scale) * 1.7rem);
+}
+
 .header-p-container {
   position: absolute;
   background-color: transparent;
   top: 10%;
+  right: 3%;
+  text-align: right;
+  color: rgb(120, 118, 118);
+}
+
+.header-p-container-desktop {
+  position: absolute;
+  background-color: transparent;
+  top: 7%;
   right: 3%;
   text-align: right;
   color: rgb(120, 118, 118);
@@ -164,15 +199,6 @@ div .header-body-image img {
 div .header-body-image {
   margin: 0;
   padding: 0;
-}
-
-div .header-body-image p {
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
-  color: #807e7e;
-  position: "absolute";
-  background-color: "transparent";
-  text-align: right;
-  text-transform: uppercase;
 }
 
 div .navigation-button {
@@ -363,12 +389,13 @@ div .tmf-section-container {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 4rem 0 4rem 0;
 }
 
 .etlgr {
   padding: 2rem;
   font-size: calc(var(--font-heading-scale) * 3rem);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .mission-stmt-snippet {
@@ -377,7 +404,12 @@ div .tmf-section-container {
 
 .read-more-link {
   background-color: transparent;
-  color: black;
+  color: #550707;
+  text-decoration: underline;
+}
+
+.read-more-link span {
+  font-weight: "700";
 }
 
 .read-more-link:hover {
@@ -393,8 +425,7 @@ div .about-us-image img {
   background-color: #e2e2e2;
   width: 89%;
   height: 45%;
-  margin: 0;
-  padding-bottom: 2rem 0 2rem 0;
+  margin: 4rem 0 4rem 0;
 }
 
 div .home-page-practice-area-container {
@@ -423,7 +454,7 @@ div .practice-area-box {
 
 div .practice-area-desktop {
   width: 43vw;
-  padding: 10px;
+  padding: 1.1rem;
   margin: 10px 0 10px 0;
   background-color: #550707;
   transition: color 0.5s ease;
@@ -441,7 +472,7 @@ div .practice-area-box:hover {
 
 .practice-areas-link {
   display: flex;
-  font-style: bold;
+  font-weight: 600;
   align-items: center;
   background-color: transparent;
   color: white;
@@ -494,12 +525,14 @@ div .contact form input {
 }
 
 div .contact form input:nth-child(5) {
-  height: 230px;
+  padding-bottom: 20rem;
 }
 input::placeholder {
   color: black;
   text-align: left;
   cursor: black;
+  top: 10px;
+  left: 10px;
 }
 
 input#checking {
@@ -512,27 +545,38 @@ input#checking:hover {
 }
 
 input#checking-what-happened {
-  padding: 0 1rem 0 1rem;
-}
-
-input#checking-what-happened::placeholder {
-  color: black;
-  text-align: left;
-  position: absolute;
-  left: 10px;
-  top: 10px;
-}
-
-input#checking-what-happened:focus {
-  text-align: left;
-  left: 10px;
-  top: 10px;
 }
 
 input:focus {
   outline: none;
   border: none;
   padding-left: 2rem;
+}
+
+textarea {
+  height: 72px;
+  width: 80%;
+  color: black;
+  background-color: #ffff;
+  padding: 1rem;
+  border: 3px solid #550707;
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+  line-height: 20px;
+  border-radius: 5px;
+  max-width: 360px;
+  margin-bottom: 2rem;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder {
+  color: black;
+}
+
+textarea:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust as needed */
 }
 
 .send-button {
@@ -554,14 +598,17 @@ input:focus {
 }
 
 div .cta {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: calc(var(--font-heading-scale) * 2.4rem);
   background-color: #e2e2e2;
-  font-weight: 600;
   text-align: center;
   padding: 2rem 0;
   text-transform: uppercase;
   color: black;
   /* border-top: 20px solid #550707; */
+}
+
+div .cta {
+  font-weight: 800;
 }
 
 .what-happened-inputbox {

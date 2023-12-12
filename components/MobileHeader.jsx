@@ -20,7 +20,7 @@ export default function HeaderMobile() {
           <span
             style={{
               backgroundColor: "transparent",
-              fontWeight: "bold",
+              fontWeight: "500",
               textTransform: "uppercase",
             }}
           >

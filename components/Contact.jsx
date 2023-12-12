@@ -24,12 +24,15 @@ export default function Contact() {
             color="#fff"
             id="checking"
           ></input>
-          <input
-            type="text"
+          <textarea
+            name="text"
+            rows="14"
+            cols="10"
+            wrap="soft"
+            id="checking"
+            type="submit"
             placeholder="What happened?"
-            color="#fff"
-            id="checking-what-happened"
-          ></input>
+          ></textarea>
           <button type="submit" name="send" className="send-button">
             SUBMIT
           </button>
