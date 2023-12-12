@@ -10,9 +10,11 @@ export default function HeaderMobile() {
           </div>
 
           <div className="encrypted-number">
-            <p>
-              <span>3</span>-CF-KING-LAW
-            </p>
+            <a href="tel:3235464529" style={{ textDecoration: "none" }}>
+              <p>
+                <span>3</span>-CF-KING-LAW
+              </p>
+            </a>
           </div>
         </div>
         <img src={"/static/images/3-logo.png"} />
@@ -23,7 +25,7 @@ export default function HeaderMobile() {
         </div>
       </div>
       <div className="header-body-image" style={{ position: "relative" }}>
-        <img src={"/static/images/desktop-header-img.jpg"} />
+        <img src={"/static/images/desktop-header-img1.jpg"} />
         <div className="free-evaluation-button-desktop-container" id="febc">
           <button
             type="submit"

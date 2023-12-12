@@ -3,7 +3,7 @@ import { practiceAreaData } from "./practiceAreas";
 export default function MobileTMF() {
   return (
     <div className="tmf-section-container">
-      <span className="etlgr">Experienced trial lawyers get results</span>
+      <span className="etlgr">Experienced Trial Lawyers Get Results</span>
       <p className="mission-stmt-snippet">
         Championing justice through advocacy, CFK is a collective of three
         dedicated law firms whose purpose is to advocate and represent everyday
@@ -18,7 +18,9 @@ export default function MobileTMF() {
           </span>
         </Link>
       </p>
-      <div className="about-us-image"></div>
+      <div className="about-us-image" style={{ padding: "1.3rem" }}>
+        <img src={"/static/images/desktop-header-img.jpg"} />
+      </div>
       <div className="home-page-practice-area-container">
         {practiceAreaData.map((item, index) => {
           return (

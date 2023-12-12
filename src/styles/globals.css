@@ -4,15 +4,43 @@
 
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("/public/fonts/MontserratRegular.ttf");
+  src: url("/public/fonts/MontserratRegular.ttf") format("ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("/public/fonts/MontserratBold.ttf") format("truetype");
+  font-style: bold;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/public/fonts/MontserratBoldItalic.ttf") format("ttf");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/public/fonts/MontserratExtraBold.ttf") format("ttf");
+  font-style: bold;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/public/fonts/Montserrat-Medium.woff") format("woff");
+  font-style: bold;
+  font-weight: 700;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Montserrat";
   background-color: #232323;
+  font-family: Montserrat;
 }
 
 html {
@@ -363,10 +391,10 @@ div .about-us-image {
 
 div .about-us-image img {
   background-color: #e2e2e2;
-  width: 100%;
+  width: 89%;
   height: 45%;
   margin: 0;
-  padding: 2rem;
+  padding-bottom: 2rem 0 2rem 0;
 }
 
 div .home-page-practice-area-container {
@@ -421,3 +449,138 @@ div .practice-area-box:hover {
 }
 
 /* team manufactuers fear section styling begin */
+
+/* contact section styling begin */
+
+div .contact-wrapper {
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div .contact form {
+  background-color: #e2e2e2;
+  border: none;
+  position: relative;
+  height: fit-content;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+  z-index: 1;
+  font-size: calc(var(--font-heading-scale) * 1rem);
+  text-transform: uppercase;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+div .contact form input {
+  height: 72px;
+  width: 80%;
+  color: black;
+  background-color: #ffff;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  border: 3px solid #550707;
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+  line-height: 40px;
+  border-radius: 5px;
+  max-width: 360px;
+}
+
+div .contact form input:nth-child(5) {
+  height: 230px;
+}
+input::placeholder {
+  color: black;
+  text-align: left;
+  cursor: black;
+}
+
+input#checking {
+  padding-left: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* You can customize the shadow values */
+}
+
+input#checking:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust as needed */
+}
+
+input#checking-what-happened {
+  padding: 0 1rem 0 1rem;
+}
+
+input#checking-what-happened::placeholder {
+  color: black;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+input#checking-what-happened:focus {
+  text-align: left;
+  left: 10px;
+  top: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  padding-left: 2rem;
+}
+
+.send-button {
+  min-width: 250px;
+  max-width: 320px;
+  min-height: 70px;
+  background-color: #550707;
+  border: 1px solid white;
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
+  color: white;
+  text-transform: uppercase;
+  transition: color 0.5s ease;
+  transition: background 0.5s ease;
+  margin-bottom: 80px;
+}
+
+.send-button:hover {
+  background-color: black;
+}
+
+div .cta {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+  background-color: #e2e2e2;
+  font-weight: 600;
+  text-align: center;
+  padding: 2rem 0;
+  text-transform: uppercase;
+  color: black;
+  /* border-top: 20px solid #550707; */
+}
+
+.what-happened-inputbox {
+  height: 5rem;
+}
+
+/* contact section styling end */
+
+/* carousel styling begin  */
+
+.carousel-item {
+}
+
+.rec-dot:active {
+  background-color: red;
+}
+
+.rec.rec-dot:active {
+  background-color: var(--gradient-base-accent-1);
+}
+
+/* carousel styling begin  */

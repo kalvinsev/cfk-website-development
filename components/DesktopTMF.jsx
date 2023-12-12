@@ -3,7 +3,7 @@ import { practiceAreaData } from "./practiceAreas";
 export default function DesktopTMF() {
   return (
     <div className="tmf-section-container">
-      <span className="etlgr">Experienced trial lawyers get results</span>
+      <span className="etlgr">Experienced Trial Lawyers Get Results</span>
       <p className="mission-stmt-snippet">
         Championing justice through advocacy, CFK is a collective of three
         dedicated law firms whose purpose is to advocate and represent everyday

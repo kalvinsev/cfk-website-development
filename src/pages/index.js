@@ -4,9 +4,10 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 import Header from "../../components/Header";
-import Body from "../../components/Body";
 import VerdictsAndSettlements from "../../components/VerdictsAndSettlements";
 import TMF from "../../components/TMF";
+import Testimonials from "../../components/Testimonials";
+import Contact from "../../components/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <VerdictsAndSettlements />
       <TMF />
+      <Contact />
     </>
   );
 }

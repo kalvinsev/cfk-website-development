@@ -52,8 +52,13 @@ export const practiceAreaData = [
     cName: "practice-area-box",
   },
   {
-    title: "Work Injury",
-    path: "/work-injury",
+    title: "White Collar Criminal Defense",
+    path: "/white-collar-criminal-defense",
+    cName: "practice-area-box",
+  },
+  {
+    title: "Catastrophic Injury",
+    path: "/catastrophic-injury",
     cName: "practice-area-box",
   },
 ];
