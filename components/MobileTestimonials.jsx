@@ -49,7 +49,7 @@ export default function MobileTestimonials() {
     >
       {data.map((item, index) => {
         return (
-          <div className="carousel-item">
+          <div className="carousel-item" key={index}>
             <h2>{item.title}</h2>
             <p>{item.content}</p>
           </div>
