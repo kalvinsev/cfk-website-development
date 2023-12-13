@@ -64,7 +64,9 @@ export default function NavigationMenu() {
                 style={{ backgroundColor: "white" }}
                 className={item.cName}
               >
-                <Link href={item.path}>{item.title}</Link>
+                <Link href={item.path} onClick={showSideBar}>
+                  {item.title}
+                </Link>
               </div>
             );
           })}

@@ -18,7 +18,10 @@ export default function DesktopTMF() {
       <div className="about-us-image">
         <img src={"/static/images/desktop-header-img.jpg"} />
       </div>
-      <div className="home-page-practice-area-container-desktop">
+      <div
+        className="home-page-practice-area-container-desktop"
+        id="practice-areas"
+      >
         {practiceAreaData.map((item, index) => {
           return (
             <div key={index} className="practice-area-desktop">

@@ -19,7 +19,7 @@ export default function MobileTMF() {
       <div className="about-us-image" style={{ padding: "1.3rem" }}>
         <img src={"/static/images/desktop-header-img.jpg"} />
       </div>
-      <div className="home-page-practice-area-container">
+      <div className="home-page-practice-area-container" id="practice-areas">
         {practiceAreaData.map((item, index) => {
           return (
             <div key={index} className={item.cName}>

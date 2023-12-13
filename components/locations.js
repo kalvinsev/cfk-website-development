@@ -7,7 +7,7 @@ export const locations = [
   },
   {
     location: "LOS ANGELES",
-    address: "145 S SPRING ST. #850 LOS ANGELES, CA 90012",
+    address: "145 S Spring St. #850 Los Angeles, CA 90012",
     locationClass: "location",
     addressClass: "address",
   },
@@ -25,7 +25,7 @@ export const locations = [
   },
   {
     location: "SAN DIEGO",
-    address: "591 Camino de la Reina #1020 San Diego, CA 92108",
+    address: "591 Camino De La Reina #1020 San Diego, CA 92108",
     locationClass: "location",
     addressClass: "address",
   },

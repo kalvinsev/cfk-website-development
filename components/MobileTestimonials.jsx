@@ -1,26 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
-const data = [
-  {
-    title: "Title 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    title: "Title 2",
-    content:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    title: "Title 3",
-    content:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-  },
-  {
-    title: "Title 3",
-    content:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-  },
-];
+import { testimonialData } from "./testimonialsData";
 
 const CarouselItem = ({ title, content }) => (
   <div className="carousel-item">
@@ -34,27 +14,84 @@ export default function MobileTestimonials() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonialData.length);
     }, 3000); // Change the interval time as needed (in milliseconds)
 
     return () => clearInterval(intervalId);
   }, []);
 
   return (
-    <Carousel
-      itemsToShow={1}
-      showArrows={false}
-      enableAutoPlay
-      autoPlaySpeed={5000}
-    >
-      {data.map((item, index) => {
-        return (
-          <div className="carousel-item" key={index}>
-            <h2>{item.title}</h2>
-            <p>{item.content}</p>
-          </div>
-        );
-      })}
-    </Carousel>
+    <div className="carousel-container">
+      <img
+        src="https://defectattorney.com/wp-content/uploads/2022/12/testimonial-stars2.png?lm=63A0CCCF"
+        style={{ width: "180px", height: "35px" }}
+      />
+      <p
+        style={{
+          fontSize: "28px",
+          fontWeight: "800",
+          color: "white",
+          padding: "1rem",
+        }}
+      >
+        TESTIMONIALS
+      </p>
+      <Carousel
+        itemsToShow={1}
+        showArrows={false}
+        enableAutoPlay
+        autoPlaySpeed={4000}
+        renderPagination={({ pages, activePage, onClick }) => {
+          return (
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              {pages.map((page) => {
+                const isActivePage = activePage === page;
+                return (
+                  <div
+                    key={page}
+                    onClick={() => onClick(page)}
+                    active={isActivePage}
+                    style={
+                      isActivePage
+                        ? {
+                            width: "12px",
+                            height: "12px",
+                            backgroundColor: "white",
+                            borderRadius: "100%",
+                            margin: "10px",
+                          }
+                        : {
+                            width: "12px",
+                            height: "12px",
+                            backgroundColor: "transparent",
+                            border: "1px solid white",
+                            borderRadius: "100%",
+                            margin: "10px",
+                          }
+                    }
+                  ></div>
+                );
+              })}
+            </div>
+          );
+        }}
+      >
+        {testimonialData.map((item, index) => {
+          return (
+            <div className="carousel-item" key={index}>
+              <p
+                style={{ color: "#C39D63", padding: "1rem", fontSize: "18px" }}
+              >
+                <strong>{item.snippet}</strong>
+              </p>
+              <p>{item.content}</p>
+              <p style={{ padding: "2rem 0" }}>
+                <strong>{item.name}</strong>
+              </p>
+            </div>
+          );
+        })}
+      </Carousel>
+    </div>
   );
 }
