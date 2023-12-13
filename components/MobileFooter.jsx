@@ -46,7 +46,7 @@ export default function MobileFooter() {
               }}
             >
               <span>
-                <a href="tel:3235464529">Tel: (323)-546-4529</a>
+                <a href="tel:3235464529">(323)-546-4529</a>
               </span>
               <span>
                 <a href="mailto:sking@kingsjusticelaw.com">

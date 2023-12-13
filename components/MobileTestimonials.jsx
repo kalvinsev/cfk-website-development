@@ -21,7 +21,7 @@ export default function MobileTestimonials() {
   }, []);
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-container" id="testimonials">
       <img
         src="https://defectattorney.com/wp-content/uploads/2022/12/testimonial-stars2.png?lm=63A0CCCF"
         style={{ width: "180px", height: "35px" }}

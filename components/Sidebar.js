@@ -6,7 +6,7 @@ export const SidebarData = [
   },
   {
     title: "About",
-    path: "/about",
+    path: "/about#mission",
     cName: "nav-text",
   },
   {
@@ -21,7 +21,7 @@ export const SidebarData = [
   },
   {
     title: "Reviews",
-    path: "/#reviews",
+    path: "/#testimonials",
     cName: "nav-text",
   },
   {

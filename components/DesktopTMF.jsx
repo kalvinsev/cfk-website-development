@@ -11,7 +11,7 @@ export default function DesktopTMF() {
         enforcement, experienced discrimination in the workplace or suffered a
         severe injury, whether it be physical, mental, or emotional related to a
         personal injury or automobile collision
-        <Link href="" className="read-more-link">
+        <Link href="#mission" className="read-more-link">
           <span style={{ fontWeight: "600" }}>... continue reading</span>
         </Link>
       </p>

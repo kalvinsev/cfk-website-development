@@ -790,3 +790,44 @@ div .individual-footer-logo-container img {
 }
 
 /* testimonials sections styling end */
+
+/* about us page body styling begin */
+
+div .mission-statement-body-container div {
+  background-color: #550707;
+  text-align: center;
+}
+
+.img-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.img-div img {
+  width: 40%;
+}
+
+.img-div-mobile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.img-div-mobile img {
+  width: 100%;
+}
+
+.gold-mission-lettering {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
+.mission-statement-paragraph-elements {
+  padding: 1rem;
+  color: white;
+  font-size: calc(var(--font-heading-scale) * 1.4rem);
+  text-align: left;
+  line-height: 30px;
+}
+
+/* about us page body styling end */

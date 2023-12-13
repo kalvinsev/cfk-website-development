@@ -12,7 +12,7 @@ export default function MobileTMF() {
         severe injury, whether it be physical, mental, or emotional related to a
         personal injury or automobile collision
         <br />
-        <Link href="/about" className="read-more-link">
+        <Link href="#mission" className="read-more-link">
           <span style={{ fontWeight: "600" }}>... continue reading</span>
         </Link>
       </p>

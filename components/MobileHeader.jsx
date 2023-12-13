@@ -1,19 +1,11 @@
 import { Grey_Qo } from "next/font/google";
 import NavigationMenu from "./NavigationMenu";
+import MobileHeaderBar from "./MobileHeaderBar";
 
 export default function HeaderMobile() {
   return (
     <div className="header-mobile">
-      <div className="header-mobile-bar">
-        <div className="navigation-button">
-          <NavigationMenu />
-        </div>
-        <img
-          src={"/static/images/3-logo.png"}
-          style={{ backgroundColor: "rgb(85, 7, 7)" }}
-        />
-        <div></div>
-      </div>
+      <MobileHeaderBar />
       <div className="header-body-image" style={{ position: "relative" }}>
         <img src={"/static/images/VersionB.jpg"} />
         <div className="header-p-container">
