@@ -1,4 +1,5 @@
 import { locations } from "./locations";
+import Newsletter from "./newsletter";
 export default function MobileFooter() {
   return (
     <div className="footer-outer-container">
@@ -54,10 +55,9 @@ export default function MobileFooter() {
               </span>
             </p>
           </div>
-          <div className="newsletter-container">
-            <span style={{ fontWeight: "700" }}>NEWSLETTER</span>
+          <div style={{ paddingBottom: "10rem ", backgroundColor: "black" }}>
+            <Newsletter />
           </div>
-          <div className="social-logos-container"></div>
         </div>
       </div>
       <div className="footer-copyright-container">
