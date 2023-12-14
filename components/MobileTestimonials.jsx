@@ -40,7 +40,7 @@ export default function MobileTestimonials() {
         itemsToShow={1}
         showArrows={false}
         enableAutoPlay
-        autoPlaySpeed={4000}
+        autoPlaySpeed={6000}
         renderPagination={({ pages, activePage, onClick }) => {
           return (
             <div style={{ display: "flex", flexDirection: "row" }}>
