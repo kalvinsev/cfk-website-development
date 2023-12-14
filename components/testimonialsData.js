@@ -8,7 +8,7 @@ export const testimonialData = [
   {
     snippet: "Highly recommended...",
     content:
-      "Outstanding attorneys, will go above and beyond for you and your love ones. Creary, Fletcher & King, I highly recommend him.",
+      "Outstanding attorneys, will go above and beyond for you and your love ones. Creary, Fletcher & King, I highly recommend them.",
     name: "Greg Allen",
   },
   {
@@ -20,7 +20,7 @@ export const testimonialData = [
   {
     snippet: "6 figure settlement...",
     content:
-      "My former employer asked me to do something that I knew was illegal. I'm a single mother and was scared but I quit my job because I believed it was wrong. Loyst obtained a six figure settlement for me after a mediation that lasted until midnight. I've never seen someone so aggressive.",
+      "My former employer asked me to do something that I knew was illegal. I'm a single mother and was scared but I quit my job because I believed it was wrong. CFK obtained a six figure settlement for me after a mediation that lasted until midnight. I've never seen someone so aggressive.",
 
     name: "Former Human Resources Director",
   },
