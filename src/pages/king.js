@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import MobileAboutPage from "../../components/MobileAboutPage";
 import DesktopAboutPage from "../../components/DesktopAboutPage";
+import MobileKingBioPage from "../../components/bio-pages/MobileKingBioPage";
+import DesktopKingBioPage from "../../components/bio-pages/DesktopKingBioPage";
+import HeaderBar from "../../components/HeaderBar";
+import Testimonials from "../../components/Testimonials";
+import Contact from "../../components/Contact";
+import Footer from "../../components/Footer";
 export default function King() {
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
@@ -19,7 +25,11 @@ export default function King() {
 
   return (
     <div className="body-section">
-      {/* {width < breakpoint ? <MobileAboutPage /> : <DesktopAboutPage />} */}
+      <HeaderBar />
+      {width < breakpoint ? <MobileKingBioPage /> : <DesktopKingBioPage />}
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

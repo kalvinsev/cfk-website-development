@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import MobileAboutPage from "../../components/MobileAboutPage";
 import DesktopAboutPage from "../../components/DesktopAboutPage";
+import MobileLoystBioPage from "../../components/bio-pages/MobileLoystBioPage";
+import DesktopLoystBioPage from "../../components/bio-pages/DesktopLoystBioPage";
+import HeaderBar from "../../components/HeaderBar";
+import Testimonials from "../../components/Testimonials";
+import Contact from "../../components/Contact";
+import Footer from "../../components/Footer";
 export default function Fletcher() {
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
@@ -19,7 +25,11 @@ export default function Fletcher() {
 
   return (
     <div className="body-section">
-      {/* {width < breakpoint ? <MobileAboutPage /> : <DesktopAboutPage />} */}
+      <HeaderBar />
+      {width < breakpoint ? <MobileLoystBioPage /> : <DesktopLoystBioPage />}
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

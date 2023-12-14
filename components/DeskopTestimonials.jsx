@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
 import { testimonialData } from "./testimonialsData";
-import { bodylogosrc } from "./bodylogosource";
+import { bodylogosrcTopRow, bodylogosrcBottomRow } from "./bodylogosource";
 
 const CarouselItem = ({ title, content }) => (
   <div className="carousel-item">
@@ -24,24 +24,51 @@ export default function MobileTestimonials() {
 
   return (
     <div style={{ backgroundColor: "#e2e2e2" }}>
-      <div
-        style={{
-          backgroundColor: "#e2e2e2",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          border: "none",
-        }}
-      >
-        {bodylogosrc.map((item, index) => {
-          return (
-            <div className={item.cName} key={index}>
-              <Link href={item.path}>
-                <img src={item.imgURL} />
-              </Link>
-            </div>
-          );
-        })}
+      <div style={{ padding: "0 0 2rem 0", backgroundColor: "#e2e2e2" }}>
+        <div
+          style={{
+            backgroundColor: "#e2e2e2",
+            display: "flex",
+            justifyContent: "center",
+            margin: "1rem;",
+            border: "none",
+          }}
+        >
+          {bodylogosrcTopRow.map((item, index) => {
+            return (
+              <div
+                className="individual-testimonial-logo-container"
+                key={index}
+              >
+                <Link href={item.path}>
+                  <img src={item.imgURL} />
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+        <div
+          style={{
+            backgroundColor: "#e2e2e2",
+            display: "flex",
+            justifyContent: "center",
+            margin: "1rem;",
+            border: "none",
+          }}
+        >
+          {bodylogosrcBottomRow.map((item, index) => {
+            return (
+              <div
+                className="individual-testimonial-logo-container"
+                key={index}
+              >
+                <Link href={item.path}>
+                  <img src={item.imgURL} />
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
       <div className="carousel-container" id="testimonials">
         <img

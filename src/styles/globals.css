@@ -836,17 +836,16 @@ div .mission-statement-body-container div {
 
 div .individual-testimonial-logo-container {
   background-color: #e2e2e2;
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 
 div .individual-testimonial-logo-container-mobile {
   background-color: #e2e2e2;
-  padding-bottom: 2rem;
 }
 
 div .individual-testimonial-logo-container img {
-  width: 12rem;
-  height: 12rem;
+  width: 8rem;
+  height: 6rem;
   background-color: #e2e2e2;
 }
 
@@ -854,6 +853,19 @@ div .individual-testimonial-logo-container-mobile img {
   width: 5.5rem;
   height: 5.5rem;
   background-color: #e2e2e2;
+}
+
+div .individual-testimonial-logo-container-sup-lawyer {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .individual-testimonial-logo-container-sup-lawyer img {
+  width: 3rem;
+  background-color: #e2e2e2;
+  margin: 0 10px;
 }
 
 /* testimonial container styling  */

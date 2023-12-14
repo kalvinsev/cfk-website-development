@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import MobileAboutPage from "../../components/MobileAboutPage";
 import DesktopAboutPage from "../../components/DesktopAboutPage";
+import MobileCrearyBioPage from "../../components/bio-pages/MobileCrearyBioPage";
+import DesktopCrearyBioPage from "../../components/bio-pages/DesktopCrearyBioPage";
+import HeaderBar from "../../components/HeaderBar";
+import Testimonials from "../../components/Testimonials";
+import Contact from "../../components/Contact";
+import Footer from "../../components/Footer";
 export default function Creary() {
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
@@ -19,7 +25,11 @@ export default function Creary() {
 
   return (
     <div className="body-section">
-      {/* {width < breakpoint ? <MobileAboutPage /> : <DesktopAboutPage />} */}
+      <HeaderBar />
+      {width < breakpoint ? <MobileCrearyBioPage /> : <DesktopCrearyBioPage />}
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }
