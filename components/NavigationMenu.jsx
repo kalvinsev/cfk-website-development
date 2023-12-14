@@ -3,6 +3,7 @@ import Link from "next/link";
 import * as AiIcons from "react-icons/ai";
 import * as HiIcons from "react-icons/hi2";
 import { SidebarData } from "./Sidebar";
+import SubDropdownMenu from "./SubDropdownMenu";
 export default function NavigationMenu() {
   function showSideBar() {
     setSideBar(!sidebar);
@@ -12,6 +13,7 @@ export default function NavigationMenu() {
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
+  const [subDropdownVisible, setSubDropdownVisible] = useState(false);
 
   const handleWindowResize = () => {
     setWidth(window.innerWidth);
@@ -64,9 +66,20 @@ export default function NavigationMenu() {
                 style={{ backgroundColor: "white" }}
                 className={item.cName}
               >
-                <Link href={item.path} onClick={showSideBar}>
+                <Link
+                  href={item.path}
+                  onClick={() => {
+                    if (item.title !== "Meet the Team") {
+                      showSideBar();
+                    }
+                    setSubDropdownVisible(!subDropdownVisible);
+                  }}
+                >
                   {item.title}
                 </Link>
+                {item.title === "Meet the Team" && subDropdownVisible && (
+                  <SubDropdownMenu />
+                )}
               </div>
             );
           })}
