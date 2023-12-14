@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MobileAboutPage from "../../components/MobileAboutPage";
 import DesktopAboutPage from "../../components/DesktopAboutPage";
-export default function Creary() {
+export default function Fletcher() {
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
