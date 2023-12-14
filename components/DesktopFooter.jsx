@@ -63,17 +63,17 @@ export default function MobileFooter() {
       </div>
       <div className="footer-copyright-container">
         <p style={{ paddingBottom: "2rem" }}>
-          © 2023 CFK Trial Lawyers For The People, A Collective of 3 Law Firms.
-          All rights reserved. <br />
+          © 2023 CFK Trial Lawyers, a collective of 3 law firms. All rights
+          reserved. <br />
         </p>
         <p style={{ lineHeight: "22px" }}>
-          CFK Trial Lawyers, a collective of 3 law firms serves, all of
+          CFK Trial Lawyers, a collective of 3 law firms, serves all of
           California. In addition, we represent clients in various other states
           through our affiliations with local law firms through which we will be
           admitted to practice law, pro hac vice. The information on this
           website should not be taken as legal advice for any individual case or
-          situation, nor is intended to create, and receipt or viewing does not
-          constitute, an attorney-client relationship.
+          situation, nor is it intended to create, and receipt or viewing does
+          not constitute, an attorney-client relationship.
         </p>
       </div>
     </div>

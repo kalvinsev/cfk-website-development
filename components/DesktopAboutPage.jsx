@@ -72,10 +72,11 @@ export default function DesktopAboutPage() {
             </p>
             <p className="mission-statement-paragraph-elements">
               Our attorneys handle civil rights cases, police brutality,
-              employment discrimination, personal injury, wrongful death, motor
-              vehicle accidents, criminal law and premises liability. We combine
-              modern day technology with our extensive knowledge and experience
-              in various legal domains. We strive to provide comprehensive
+              employment discrimination, personal injury, catastrophic injury,
+              wrongful death, motor vehicle accidents, white collar criminal
+              defense, criminal law and premises liability. We combine modern
+              day technology with our extensive knowledge and experience in
+              various legal domains. We strive to provide comprehensive
               solutions tailored to the specific needs of our clients. At CFK we
               are dedicated to fostering strong attorney-client relationships
               built on trust, empathy, and open communication.
@@ -89,15 +90,6 @@ export default function DesktopAboutPage() {
               venture. At CFK we actively listen to our clients&apos; concerns
               in order to eremnsure that their voices are heard, and their
               rights are protected.
-            </p>
-            <p className="mission-statement-paragraph-elements">
-              As African American lawyers, we recognize the historical and
-              ongoing injustices faced by our community. We are committed to
-              using our platform to advocate for racial equality, social
-              justice, and the eradication of systemic inequality. By actively
-              engaging in pro bono work, community outreach, and educational
-              initiatives, we aim to empower individuals and organizations to
-              effect positive change within their communities.
             </p>
             <p className="mission-statement-paragraph-elements">
               In summary, our mission is to establish and grow a law firm that
