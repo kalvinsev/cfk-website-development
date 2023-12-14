@@ -13,7 +13,7 @@ const SubDropdownMenu = () => {
         Loyst Fletcher
       </Link>
       <Link href="/king" className="sub-menu-links">
-        Stephen A. King
+        Stephen King
       </Link>
     </div>
   );
