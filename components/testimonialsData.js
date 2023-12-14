@@ -2,7 +2,7 @@ export const testimonialData = [
   {
     snippet: "Stephen is the G.O.A.T...",
     content:
-      "Coming in as a first time offender, I was nervous and naive. But he took the time to listen, not to reply. But he listens to understand. He gave me very detailed explanations of my entire situation and worked with me every step of the way. Highly recommend their services!",
+      "Coming in as a first time offender, I was nervous and naive. But Stephen took the time to listen, not to reply. But he listens to understand. He gave me very detailed explanations of my entire situation and worked with me every step of the way. Highly recommend their services!",
     name: "Doma Morris",
   },
   {
