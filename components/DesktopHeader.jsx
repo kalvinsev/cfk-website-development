@@ -1,5 +1,6 @@
 import DesktopHeaderBar from "./DesktopHeaderBar";
 import NavigationMenu from "./NavigationMenu";
+import FreeCaseEvalutaionButton from "./freeCaseEvaluationButton";
 
 export default function DesktopHeader() {
   return (
@@ -23,13 +24,7 @@ export default function DesktopHeader() {
           <p>Employment Law</p>
         </div>
         <div className="free-evaluation-button-desktop-container" id="febc">
-          <button
-            type="submit"
-            name="free-evaluation-button"
-            className="free-evaluation-button"
-          >
-            <span className="free-eval-span">Free Case Evaluation</span>
-          </button>
+          <FreeCaseEvalutaionButton />
         </div>
       </div>
       <div className="free-ev-button-container"></div>

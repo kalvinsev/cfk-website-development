@@ -1,6 +1,7 @@
 import { Grey_Qo } from "next/font/google";
 import NavigationMenu from "./NavigationMenu";
 import MobileHeaderBar from "./MobileHeaderBar";
+import FreeCaseEvalutaionButton from "./freeCaseEvaluationButton";
 
 export default function HeaderMobile() {
   return (
@@ -24,13 +25,7 @@ export default function HeaderMobile() {
           <p>Employment Law</p>
         </div>
         <div className="free-evaluation-button-container" id="febc">
-          <button
-            type="submit"
-            name="free-evaluation-button"
-            className="free-evaluation-button"
-          >
-            <span className="free-eval-span">Free Case Evaluation</span>
-          </button>
+          <FreeCaseEvalutaionButton />
         </div>
       </div>
     </div>

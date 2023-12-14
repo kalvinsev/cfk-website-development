@@ -2,6 +2,7 @@ import DesktopHeaderBar from "./DesktopHeaderBar";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import FreeCaseEvalutaionButton from "./freeCaseEvaluationButton";
 
 export default function DesktopAboutPage() {
   return (
@@ -26,13 +27,7 @@ export default function DesktopAboutPage() {
           <p>Employment Law</p>
         </div>
         <div className="free-evaluation-button-container" id="febc">
-          <button
-            type="submit"
-            name="free-evaluation-button"
-            className="free-evaluation-button"
-          >
-            <span className="free-eval-span">Free Case Evaluation</span>
-          </button>
+          <FreeCaseEvalutaionButton />
         </div>
       </div>
       {/* Version A end */}
