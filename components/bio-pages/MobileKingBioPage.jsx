@@ -1,7 +1,3 @@
-import Contact from "../Contact";
-import Footer from "../Footer";
-import HeaderBar from "../HeaderBar";
-import Testimonials from "../Testimonials";
 import FreeCaseEvalutaionButton from "../freeCaseEvaluationButton";
 
 export default function MobileKingBioPage() {
