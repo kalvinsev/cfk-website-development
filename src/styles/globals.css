@@ -868,6 +868,32 @@ div .individual-testimonial-logo-container-sup-lawyer img {
   margin: 0 10px;
 }
 
+div .individual-testimonial-logo-container-sup-lawyer-bottom {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .individual-testimonial-logo-container-sup-lawyer-bottom img {
+  width: 5rem;
+  background-color: #e2e2e2;
+  margin: 0 10px;
+}
+
+div .individual-testimonial-logo-container-sup-lawyer-bottom-desktop {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .individual-testimonial-logo-container-sup-lawyer-bottom-desktop img {
+  width: 2rem;
+  background-color: #e2e2e2;
+  margin: 0 10px;
+}
+
 /* testimonial container styling  */
 
 div .sub-dropdown-menu {
@@ -880,4 +906,13 @@ div .sub-dropdown-menu {
 
 .sub-menu-links {
   padding: 10px 0;
+}
+
+div .mobile-bio-page-container {
+  position: relative;
+  border: none;
+}
+
+div .mobile-bio-page-container img {
+  width: 100%;
 }

@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import MobileTestimonials from "./MobileTestimonials";
 import DesktopTestimonials from "./DeskopTestimonials";
 
-export default function Testimonials() {
+export default function Testimonials(props) {
+  const tData = props.data;
+  console.log(tData);
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
@@ -20,7 +22,11 @@ export default function Testimonials() {
 
   return (
     <div className="header-container">
-      {width < breakpoint ? <MobileTestimonials /> : <DesktopTestimonials />}
+      {width < breakpoint ? (
+        <MobileTestimonials data={tData} />
+      ) : (
+        <DesktopTestimonials data={tData} />
+      )}
     </div>
   );
 }

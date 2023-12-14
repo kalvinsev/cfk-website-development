@@ -34,20 +34,20 @@ export const bodylogosrcTopRow = [
 export const bodylogosrcBottomRow = [
   {
     imgURL:
-      "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-tlc_partner_kjl.png",
-    cName: "individual-testimonial-logo-container",
-    path: "/",
-  },
-  {
-    imgURL:
       "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-aaj_kjl.png",
-    cName: "individual-testimonial-logo-container",
+    cName: "individual-testimonial-logo-container-sup-lawyer-bottom",
+    path: "/",
+  },
+
+  {
+    imgURL: "/static/images/langstonBarAssocImg.png",
+    cName: "individual-testimonial-logo-container-sup-lawyer-bottom",
     path: "/",
   },
   {
     imgURL:
-      "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/the-national-trial-lawyers-top-100-trial-lawyers_kjl_2021.png",
-    cName: "individual-testimonial-logo-container",
+      "https://gerryspencemethod.com/_next/image?url=https%3A%2F%2Fcg-gerry-spence-method.s3.amazonaws.com%2Fgerry-spence-method-logo.png&w=640&q=75",
+    cName: "individual-testimonial-logo-container-sup-lawyer-bottom",
     path: "/",
   },
 

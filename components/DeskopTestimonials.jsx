@@ -11,7 +11,7 @@ const CarouselItem = ({ title, content }) => (
   </div>
 );
 
-export default function MobileTestimonials() {
+export default function DesktopTestimonials({ data }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -37,7 +37,12 @@ export default function MobileTestimonials() {
           {bodylogosrcTopRow.map((item, index) => {
             return (
               <div
-                className="individual-testimonial-logo-container"
+                className={
+                  item.cName ===
+                  "individual-testimonial-logo-container-sup-lawyer"
+                    ? "individual-testimonial-logo-container-sup-lawyer"
+                    : "individual-testimonial-logo-container"
+                }
                 key={index}
               >
                 <Link href={item.path}>
@@ -59,7 +64,12 @@ export default function MobileTestimonials() {
           {bodylogosrcBottomRow.map((item, index) => {
             return (
               <div
-                className="individual-testimonial-logo-container"
+                className={
+                  item.cName ===
+                  "individual-testimonial-logo-container-sup-lawyer-bottom-desktop"
+                    ? "individual-testimonial-logo-container-sup-lawyer-bottom-desktop"
+                    : "individual-testimonial-logo-container"
+                }
                 key={index}
               >
                 <Link href={item.path}>
