@@ -50,7 +50,7 @@ export default function MobileFooter() {
               </span>
               <span>
                 <a href="mailto:sking@kingsjusticelaw.com">
-                  sking@kingsjusticelaw.com
+                  info@cktriallawyers.com
                 </a>
               </span>
             </p>
