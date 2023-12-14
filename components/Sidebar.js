@@ -30,7 +30,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Resources",
+    title: "Community Engagement",
     path: "/resources",
     cName: "nav-text",
   },

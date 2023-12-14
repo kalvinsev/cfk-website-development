@@ -20,14 +20,14 @@ export const testimonialData = [
   {
     snippet: "6 figure settlement...",
     content:
-      "My former employer asked me to do something that I knew was illegal. I'm a single mother and was scared but I quit my job because I believed it was wrong. CFK obtained a six figure settlement for me after a mediation that lasted until midnight. I've never seen someone so aggressive.",
+      "My former employer asked me to do something that I knew was illegal. I'm a single mother and was scared but I quit my job because I believed it was wrong. CFK obtained a six figure settlement for me after a mediation that lasted until midnight.",
 
     name: "Former Human Resources Director",
   },
   {
     snippet: "Attention to detail...",
     content:
-      "Creary, Fletcher & King is committed to providing its clients with the best legal representation available, while also providing the level attention to detail that we as clients expect and deserve.",
+      "Creary, Fletcher & King is committed to providing its clients with the best legal representation available, while also providing the level of attention to detail that we as clients expect and deserve.",
 
     name: "Michelle Egberts",
   },
