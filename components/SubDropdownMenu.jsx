@@ -7,13 +7,13 @@ const SubDropdownMenu = () => {
   return (
     <div className="sub-dropdown-menu">
       <Link href="/creary" className="sub-menu-links">
-        Creary
+        Ludlow Creary
       </Link>
       <Link href="/fletcher" className="sub-menu-links">
-        Fletcher
+        Loyst Fletcher
       </Link>
       <Link href="/king" className="sub-menu-links">
-        King
+        Stephen A. King
       </Link>
     </div>
   );
