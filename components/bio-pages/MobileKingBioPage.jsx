@@ -1,10 +1,10 @@
 import FreeCaseEvalutaionButton from "../freeCaseEvaluationButton";
-
+// H
 export default function MobileKingBioPage() {
   return (
     <div>
       <div className="mobile-bio-page-container">
-        <img src="/static/images/sakbio4.jpg" />
+        <img src="/static/images/sakbio4.JPG" />
         <div className="free-evaluation-button-container" id="febc">
           <FreeCaseEvalutaionButton />
         </div>
@@ -85,7 +85,7 @@ export default function MobileKingBioPage() {
         </div>
       </div>
       <div className="mobile-bio-page-container">
-        <img src="/static/images/sakbio5.jpg" />
+        <img src="/static/images/sakbio5.JPG" />
       </div>
     </div>
   );
