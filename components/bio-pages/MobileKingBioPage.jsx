@@ -4,7 +4,7 @@ export default function MobileKingBioPage() {
   return (
     <div>
       <div className="mobile-bio-page-container">
-        <img src="/static/images/sakbio4.JPG" />
+        <img src="/static/images/sakbio5.JPG" />
         <div className="free-evaluation-button-container" id="febc">
           <FreeCaseEvalutaionButton />
         </div>
@@ -85,7 +85,7 @@ export default function MobileKingBioPage() {
         </div>
       </div>
       <div className="mobile-bio-page-container">
-        <img src="/static/images/sakbio5.JPG" />
+        <img src="/static/images/sakbio4.JPG" />
       </div>
     </div>
   );
