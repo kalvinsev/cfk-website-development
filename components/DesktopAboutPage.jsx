@@ -61,7 +61,7 @@ export default function DesktopAboutPage() {
           >
             CFK MISSION STATEMENT
           </p>
-          <div style={{ backgroundColor: "#232323" }}>
+          <div style={{ backgroundColor: "#232323", padding: "0 4rem" }}>
             <p className="mission-statement-paragraph-elements">
               Championing justice through advocacy, CFK is a collective of three
               dedicated law firms whose purpose is to advocate and represent
@@ -87,8 +87,8 @@ export default function DesktopAboutPage() {
               considering the respective expertise, experience, and strengths of
               everyone involved in the development and operation of this
               venture. At CFK we actively listen to our clients&apos; concerns
-              in order to ensure that their voices are heard, and their rights
-              are protected.
+              in order to eremnsure that their voices are heard, and their
+              rights are protected.
             </p>
             <p className="mission-statement-paragraph-elements">
               As African American lawyers, we recognize the historical and
