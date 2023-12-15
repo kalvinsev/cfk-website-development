@@ -10,8 +10,8 @@ export default function DesktopAboutPage() {
       {/* Version A begin */}
       <DesktopHeaderBar />
       <div className="header-body-image" style={{ position: "relative" }}>
-        <img src="/static/images/mission-page-image.jpg" />
-        <div className="header-p-container">
+        <img src="/static/images/aboutus1.jpg" />
+        <div className="header-p-container-desktop">
           <span
             style={{
               backgroundColor: "transparent",
