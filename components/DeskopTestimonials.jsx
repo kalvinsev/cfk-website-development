@@ -24,13 +24,17 @@ export default function DesktopTestimonials({ data }) {
 
   return (
     <div style={{ backgroundColor: "#e2e2e2" }}>
-      <div style={{ padding: "0 0 2rem 0", backgroundColor: "#e2e2e2" }}>
+      <div
+        style={{
+          padding: "0 0 2rem 10rem",
+          backgroundColor: "#e2e2e2",
+        }}
+      >
         <div
           style={{
             backgroundColor: "#e2e2e2",
             display: "flex",
             justifyContent: "center",
-            margin: "1rem;",
             border: "none",
           }}
         >
@@ -44,6 +48,7 @@ export default function DesktopTestimonials({ data }) {
                     : "individual-testimonial-logo-container"
                 }
                 key={index}
+                style={{ padding: "0 3.7rem 0 3.7rem" }}
               >
                 <Link href={item.path}>
                   <img src={item.imgURL} />

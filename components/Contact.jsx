@@ -7,7 +7,7 @@ export default function Contact() {
   const [injurred, setInjured] = useState("");
   const [whatHappend, setWhatHappened] = useState("");
 
-  function sendEmailToUser() {
+  function sendEmailToUser(event) {
     event.preventDefault();
     emailjs
       .send(
@@ -19,10 +19,8 @@ export default function Contact() {
           user_number: number,
           isInjured: injurred,
           what_happened: whatHappend,
-          firm: "CFK Trial Lawyers",
-          from_email: "info@cfktriallawyers.com",
         },
-        "eDVOTZwnxYF2EesF7"
+        "gSLGTCoIeNGBSJJhE"
       )
       .then(
         function (response) {
@@ -33,6 +31,36 @@ export default function Contact() {
         }
       );
     return false;
+  }
+
+  function sendEmailToFirm(event) {
+    event.preventDefault();
+    emailjs
+      .send(
+        "service_v817rf9",
+        "template_kuk8yuk",
+        {
+          name_: name,
+          user_email: userEmail,
+          user_number: number,
+          isInjured: injurred,
+          what_happened: whatHappend,
+        },
+        "gSLGTCoIeNGBSJJhE"
+      )
+      .then(
+        function (response) {
+          console.log("SUCCESS", response);
+        },
+        function (error) {
+          console.log("FAILED", error);
+        }
+      );
+    return false;
+  }
+
+  function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
   return (
@@ -93,9 +121,9 @@ export default function Contact() {
             type="submit"
             name="send"
             className="send-button"
-            onClick={() => {
-              sendEmailToUser();
-              console.log("submitted");
+            onClick={(e) => {
+              sendEmailToUser(e);
+              sendEmailToFirm(e);
             }}
           >
             SUBMIT

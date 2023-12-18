@@ -13,7 +13,7 @@ const p = [
 export const practiceAreaData = [
   {
     title: "Civil Rights",
-    path: "/civil-rights",
+    path: "/practice-areas/CivilRights",
     cName: "practice-area-box",
   },
   {

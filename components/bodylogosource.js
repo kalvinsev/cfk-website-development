@@ -20,7 +20,7 @@ export const bodylogosrcTopRow = [
   {
     imgURL:
       "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-tlc_partner_kjl.png",
-    cName: "individual-testimonial-logo-container",
+    cName: "individual-testimonial-logo-container tlc",
     path: "/",
   },
   {
@@ -54,6 +54,12 @@ export const bodylogosrcBottomRow = [
   {
     imgURL:
       "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-justice-x-kjl.png",
+    cName: "individual-testimonial-logo-container",
+    path: "/",
+  },
+  {
+    imgURL:
+      "https://calblacklawyers.org/wp-content/uploads/2023/08/CABL_weblogo.png",
     cName: "individual-testimonial-logo-container",
     path: "/",
   },

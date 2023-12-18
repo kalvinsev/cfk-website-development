@@ -834,6 +834,40 @@ div .mission-statement-body-container div {
 
 /* testimonials container styling begin */
 
+@media only screen and (min-width: 300px) {
+  div .individual-testimonial-logo-container-mobile:nth-child(5) img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  div .individual-testimonial-logo-container:nth-child(4) img {
+    width: 90%;
+  }
+  div .individual-testimonial-logo-container:nth-child(2) img {
+    width: 90%;
+  }
+
+  div .individual-testimonial-logo-container:nth-child(5) img {
+    width: 40%;
+    height: auto;
+  }
+
+  div .individual-testimonial-logo-container-sup-lawyer:nth-child(2) img {
+    width: 100px;
+  }
+
+  div .individual-testimonial-logo-container-sup-lawyer:nth-child(3) img {
+    width: 100px;
+  }
+}
+
+div .individual-footer-logo-container:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 div .individual-testimonial-logo-container {
   background-color: #e2e2e2;
   padding: 0 2rem;
@@ -924,4 +958,35 @@ div .mobile-bio-page-container img {
   height: 100%;
   display: block; /* Ensure the image behaves consistently */
   border: none; /* Remove any border on the image */
+}
+
+/* practice areas styling begin */
+
+div .image-container-practice-areas-mobile {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  div .image-container-practice-areas {
+    max-width: 50%; /* Adjust the max-width for larger screens, e.g., tablets or desktops */
+  }
+}
+
+.practice-areas-header-image {
+  position: absolute;
+  background-color: transparent;
+  top: 17%;
+  left: 2rem;
+  text-align: center;
+}
+
+/* practice areas styling end */
+.civil-rights-bottom-image-container {
+  position: absolute;
+
+  background-color: transparent;
 }
