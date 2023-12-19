@@ -53,12 +53,12 @@ export const practiceAreaData = [
   },
   {
     title: "White Collar Criminal Defense",
-    path: "/white-collar-criminal-defense",
+    path: "/practice-areas/WhiteCollarCriminalDefense",
     cName: "practice-area-box",
   },
   {
     title: "Catastrophic Injury",
-    path: "/catastrophic-injury",
+    path: "/practice-areas/CatastrophicInjury",
     cName: "practice-area-box",
   },
 ];
