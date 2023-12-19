@@ -132,7 +132,7 @@ export default function King() {
             itemsToShow={1}
             showArrows={false}
             enableAutoPlay
-            autoPlaySpeed={10000}
+            autoPlaySpeed={13000}
             renderPagination={({ pages, activePage, onClick }) => {
               return (
                 <div style={{ display: "flex", flexDirection: "row" }}>

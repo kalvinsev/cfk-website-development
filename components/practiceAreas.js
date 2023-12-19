@@ -18,12 +18,12 @@ export const practiceAreaData = [
   },
   {
     title: "Police Brutality",
-    path: "/police-brutaliy",
+    path: "/practice-areas/PoliceBrutality",
     cName: "practice-area-box",
   },
   {
     title: "Employment Discrimination",
-    path: "/employment-discrimination",
+    path: "/practice-areas/EmploymentDiscrimination",
     cName: "practice-area-box",
   },
   {
@@ -33,22 +33,22 @@ export const practiceAreaData = [
   },
   {
     title: "Personal Injury",
-    path: "/personal-injury",
+    path: "/practice-areas/PersonalInjury",
     cName: "practice-area-box",
   },
   {
     title: "Wrongful Death",
-    path: "/wrongful-death",
+    path: "/practice-areas/WrongfulDeath",
     cName: "practice-area-box",
   },
   {
-    title: "Mobile Vehicle Accidents",
-    path: "/mobile-vehicle-accidents",
+    title: "Motor Vehicle Accidents",
+    path: "/practice-areas/MotorVehicleAccidents",
     cName: "practice-area-box",
   },
   {
     title: "Premises Liability",
-    path: "/premises-liability",
+    path: "/practice-areas/PremisesLiability",
     cName: "practice-area-box",
   },
   {

@@ -25,7 +25,6 @@ export default function CivilRights() {
   return (
     <div className="body-section">
       {width < breakpoint ? <MobileCivilRights /> : <DesktopCivilRights />}
-      <Testimonials />
       <Contact />
       <Footer />
     </div>

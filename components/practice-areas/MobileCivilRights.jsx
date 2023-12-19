@@ -1,4 +1,6 @@
 import MobileHeaderBar from "../MobileHeaderBar";
+import MobileTestimonials from "../MobileTestimonials";
+import Testimonials from "../Testimonials";
 import FreeCaseEvalutaionButton from "../freeCaseEvaluationButton";
 
 export default function MobileCivilRights() {
@@ -280,7 +282,10 @@ export default function MobileCivilRights() {
         >
           Call A Civil Rights Lawyer
         </p>
-        <p className="mission-statement-paragraph-elements">
+        <p
+          className="mission-statement-paragraph-elements"
+          style={{ paddingBottom: "3rem" }}
+        >
           If you or someone you know have had their rights as a protestor
           violated by police, you may have grounds for a civil lawsuit. If you
           have any questions about how to move forward with a civil claim,
@@ -302,6 +307,7 @@ export default function MobileCivilRights() {
           }}
         />
       </div>
+      <MobileTestimonials />
     </div>
   );
 }

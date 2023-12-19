@@ -17,7 +17,7 @@ export default function MobileTestimonials({ data }) {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonialData.length);
-    }, 3000); // Change the interval time as needed (in milliseconds)
+    }, 13000); // Change the interval time as needed (in milliseconds)
 
     return () => clearInterval(intervalId);
   }, []);
@@ -99,7 +99,7 @@ export default function MobileTestimonials({ data }) {
           itemsToShow={1}
           showArrows={false}
           enableAutoPlay
-          autoPlaySpeed={6000}
+          autoPlaySpeed={13000}
           renderPagination={({ pages, activePage, onClick }) => {
             return (
               <div style={{ display: "flex", flexDirection: "row" }}>
