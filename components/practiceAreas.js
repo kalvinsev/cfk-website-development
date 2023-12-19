@@ -28,7 +28,7 @@ export const practiceAreaData = [
   },
   {
     title: "Criminal Law",
-    path: "/criminal-law",
+    path: "/practice-areas/CriminalLaw",
     cName: "practice-area-box",
   },
   {
