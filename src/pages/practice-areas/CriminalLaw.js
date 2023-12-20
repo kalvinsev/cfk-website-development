@@ -3,6 +3,7 @@ import Contact from "../../../components/Contact";
 import Footer from "../../../components/Footer";
 import MobileCriminalLaw from "../../../components/practice-areas/MobileCriminalLaw";
 import DesktopWhiteCollarCriminalDefense from "../../../components/practice-areas/DesktopWhiteCollarCriminalDefense";
+import DesktopCriminalLaw from "../../../components/practice-areas/DesktopCriminalLaw";
 export default function CriminalDefense() {
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
@@ -24,7 +25,7 @@ export default function CriminalDefense() {
       {width < breakpoint ? (
         <MobileCriminalLaw />
       ) : (
-        <DesktopWhiteCollarCriminalDefense />
+        <DesktopCriminalLaw />
       )}
       <Contact />
       <Footer />

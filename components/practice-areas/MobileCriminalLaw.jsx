@@ -40,7 +40,7 @@ export default function MobileCriminalLaw() {
               textAlign: "center",
             }}
           >
-            CRIMINAL DEFENSE
+            CRIMINAL LAW
           </p>
           <p
             className="gold-mission-lettering"
