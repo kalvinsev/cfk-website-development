@@ -59,7 +59,7 @@ export default function MobileCriminalLaw() {
             style={{
               fontWeight: "500",
               color: "#c39d63",
-              padding: "2rem 0 0 1rem",
+              padding: "1rem 0 0 1rem",
               fontSize: "2rem",
               textAlign: "left",
               paddingBottom: "3rem",

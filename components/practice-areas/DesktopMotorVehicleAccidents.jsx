@@ -228,7 +228,7 @@ export default function DesktopMotorVehicleAccidents() {
           style={{ paddingBottom: "3rem" }}
         >
           If you are unsure what you should do after an accident, you can always
-          call a lawyer. At CFK Trial Lawyers for the People, we never charge for advice.
+          call a lawyer. At CFK Trial Lawyers For The People, we never charge for advice.
           We can walk you through the process of making a claim against an
           insurance company.
         </p>
