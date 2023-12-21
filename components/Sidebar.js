@@ -29,11 +29,11 @@ export const SidebarData = [
     path: "/#contact",
     cName: "nav-text",
   },
-  {
-    title: "Community Engagement",
-    path: "/resources",
-    cName: "nav-text",
-  },
+  // {
+  //   title: "Community Engagement",
+  //   path: "/resources",
+  //   cName: "nav-text",
+  // },
   {
     title: "3-CF-KING-LAW",
     path: "tel:3235464529",
