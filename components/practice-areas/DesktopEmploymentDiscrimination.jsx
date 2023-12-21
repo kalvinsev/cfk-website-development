@@ -97,7 +97,7 @@ export default function DesktopEmploymentDiscrimination() {
             Have You Experienced Discrimination at Work?
           </p>
           <p className="mission-statement-paragraph-elements">
-            CFK Trial Lawyers For The People represents clients who have been
+            CFK Trial Lawyers For The People represent clients who have been
             discriminated against in the workplace.
           </p>
           <p

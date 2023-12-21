@@ -82,11 +82,7 @@ export default function DesktopPersonalInjury() {
             California Civil Rights Protests – Wrongful Arrests & Injuries
           </p>
 
-          <p className="mission-statement-paragraph-elements">
-            CFK Trial Lawyers For The People represents clients who have been
-            injured in accidents. If you have a potential claim or legal
-            question, contact us here. Free Case Evaluation
-          </p>
+         
         </div>
         <div style={{ backgroundColor: "#232323", padding: "0 2rem" }}>
           <p
@@ -102,7 +98,7 @@ export default function DesktopPersonalInjury() {
             Have You Been Injured In An Accident? Do You Have Legal Questions?
           </p>
           <p className="mission-statement-paragraph-elements">
-            CFK Trial Lawyers For The People represents clients who have been
+            CFK Trial Lawyers For The People represent clients who have been
             injured in accidents. If you have a potential claim or legal
             question, contact us here. Free Case Evaluation
           </p>

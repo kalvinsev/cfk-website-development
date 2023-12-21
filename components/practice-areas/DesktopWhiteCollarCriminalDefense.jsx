@@ -50,7 +50,7 @@ export default function DesktopWhiteCollarCriminalDefense() {
             White-collar crime cases are rarely simple as usually, they are
             mazes of financial documents, business decisions, electronic
             records, and more. However, our experienced lawyers know how to
-            navigate through these complex mazes. At Creary, Fletcher and King
+            navigate through these complex mazes. At CFK Trial Lawyers for the People,
             we understand how easily white-collar crime charges can arise. We
             have seen them appear as the result of an honest financial mistake,
             of poor business agreements, or simply because of false accusations.

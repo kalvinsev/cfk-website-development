@@ -78,7 +78,7 @@ export default function MobilePersonalInjury() {
             Have You Been Injured In An Accident? Do You Have Legal Questions?
           </p>
           <p className="mission-statement-paragraph-elements">
-            CFK Trial Lawyers For The People represents clients who have been
+            CFK Trial Lawyers For The People represent clients who have been
             injured in accidents. If you have a potential claim or legal
             question, contact us here. Free Case Evaluation
           </p>

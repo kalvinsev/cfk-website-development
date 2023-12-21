@@ -55,7 +55,7 @@ export default function DesktopCatastrophicInjury() {
             impact, those who are suffering will need proper treatment and
             complete justice. Rather than going about this injury alone, or with
             an unreliable insurance company, you should consider the legal
-            assistance and knowledge of CFK Trial Lawyers for the people. 
+            assistance and knowledge of CFK Trial Lawyers for the People. 
           </p>
         </div>
       </div>
