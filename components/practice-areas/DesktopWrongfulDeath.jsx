@@ -75,7 +75,7 @@ export default function DesktopWrongfulDeath() {
               textAlign: "left",
             }}
           >
-            California Wrongful Death Attorneys – Lawyers For The People
+            California Wrongful Death Attorneys – CFK Trial Lawyers For The People
           </p>
           <p className="mission-statement-paragraph-elements">
             CFK Trial Lawyers For The People has experience in several wrongful

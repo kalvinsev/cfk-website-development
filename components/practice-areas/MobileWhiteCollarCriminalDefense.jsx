@@ -46,7 +46,7 @@ export default function MobileWhiteCollarCriminalDefense() {
             White-collar crime cases are rarely simple as usually, they are
             mazes of financial documents, business decisions, electronic
             records, and more. However, our experienced lawyers know how to
-            navigate through these complex mazes. At Creary, Fletcher and King
+            navigate through these complex mazes. At CFK Trial Lawyers for the people
             we understand how easily white-collar crime charges can arise. We
             have seen them appear as the result of an honest financial mistake,
             of poor business agreements, or simply because of false accusations.
@@ -62,7 +62,7 @@ export default function MobileWhiteCollarCriminalDefense() {
             style={{
               fontWeight: "700",
               color: "#c39d63",
-              padding: "2rem 0 0 1rem",
+              padding: "0 0 0 1rem",
               fontSize: "2rem",
               textAlign: "left",
             }}
@@ -303,9 +303,7 @@ export default function MobileWhiteCollarCriminalDefense() {
           <p className="mission-statement-paragraph-elements">
             To beat a white-collar charge, you need to work with a team that has
             an in-depth understanding of how investigators collect evidence and
-            how prosecutors litigate these cases. At Werksman Jackson & Quinn
-            LLP, many of our lawyers have served in district attorney’s offices
-            and know firsthand how these charges are evaluated. After speaking
+            how prosecutors litigate these cases. After speaking
             to you in a free consultation, we can begin preparing a defense
             strategy, which may include:
           </p>

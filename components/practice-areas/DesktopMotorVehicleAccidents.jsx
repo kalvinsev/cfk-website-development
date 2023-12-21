@@ -125,7 +125,7 @@ export default function DesktopMotorVehicleAccidents() {
             Have You Been Injured in a Car Accident?
           </p>
           <p className="mission-statement-paragraph-elements">
-            Lawyers For The People represents clients who have been injured in
+            CFK Trial Lawyers For The People represent clients who have been injured in
             accidents. If you have a potential claim or legal question, contact
             us below.
           </p>
@@ -228,7 +228,7 @@ export default function DesktopMotorVehicleAccidents() {
           style={{ paddingBottom: "3rem" }}
         >
           If you are unsure what you should do after an accident, you can always
-          call a lawyer. At Lawyers for the People, we never charge for advice.
+          call a lawyer. At CFK Trial Lawyers for the People, we never charge for advice.
           We can walk you through the process of making a claim against an
           insurance company.
         </p>

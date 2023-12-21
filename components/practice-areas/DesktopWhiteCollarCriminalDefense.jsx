@@ -320,9 +320,7 @@ export default function DesktopWhiteCollarCriminalDefense() {
           <p className="mission-statement-paragraph-elements">
             To beat a white-collar charge, you need to work with a team that has
             an in-depth understanding of how investigators collect evidence and
-            how prosecutors litigate these cases. At Werksman Jackson & Quinn
-            LLP, many of our lawyers have served in district attorney’s offices
-            and know firsthand how these charges are evaluated. After speaking
+            how prosecutors litigate these cases. After speaking
             to you in a free consultation, we can begin preparing a defense
             strategy, which may include:
           </p>

@@ -45,7 +45,7 @@ export default function DesktopPoliceBrutality() {
               fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
             }}
           >
-            Lawyers For The People represents clients who have been victimized
+            CFK Trial Lawyers For The People represent clients who have been victimized
             by police brutality. If you have a potential claim or legal
             question, contact us here. The term “Police Brutality” represents a
             variety of abuses of power by police officers or police departments.
@@ -69,7 +69,7 @@ export default function DesktopPoliceBrutality() {
             style={{
               fontWeight: "500",
               color: "#c39d63",
-              padding: "2rem 0 0 0",
+              padding: "0 0 0 0",
               fontSize: "2rem",
               textAlign: "center",
             }}
@@ -214,7 +214,7 @@ export default function DesktopPoliceBrutality() {
           </p>
           <p className="mission-statement-paragraph-elements">
             If you have any questions about how to move forward with a legal
-            claim, we recommend speaking with an attorney. Lawyers For The
+            claim, we recommend speaking with an attorney. CFK Trial Lawyers For The
             People offers free legal advice. Contact us today if you have any
             questions, we are here to help.
           </p>

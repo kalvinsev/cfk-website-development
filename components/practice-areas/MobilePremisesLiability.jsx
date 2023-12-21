@@ -70,7 +70,7 @@ export default function MobilePremisesLiability() {
             style={{
               fontWeight: "700",
               color: "#c39d63",
-              padding: "2rem 0 0 1rem",
+              padding: "0 0 0 1rem",
               fontSize: "2rem",
               textAlign: "left",
             }}
@@ -227,7 +227,7 @@ export default function MobilePremisesLiability() {
             style={{
               fontWeight: "700",
               color: "#c39d63",
-              padding: "2rem 0 0 1rem",
+              padding: "0 0 0 1rem",
               fontSize: "2rem",
               textAlign: "left",
             }}

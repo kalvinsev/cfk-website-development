@@ -55,8 +55,7 @@ export default function DesktopCatastrophicInjury() {
             impact, those who are suffering will need proper treatment and
             complete justice. Rather than going about this injury alone, or with
             an unreliable insurance company, you should consider the legal
-            assistance and knowledge of Creary, Fletcher and King, Trial
-            Lawyers.
+            assistance and knowledge of CFK Trial Lawyers for the people. 
           </p>
         </div>
       </div>

@@ -51,7 +51,7 @@ export default function MobileWrongfulDeath() {
               textAlign: "left",
             }}
           >
-            California Wrongful Death Attorneys – Lawyers For The People
+            California Wrongful Death Attorneys – CFK Trial Lawyers For The People
           </p>
           <p className="mission-statement-paragraph-elements">
             In catastrophic accidents where someone lost their life due to the
@@ -62,7 +62,7 @@ export default function MobileWrongfulDeath() {
             handle these cases with extreme care.
           </p>
           <p className="mission-statement-paragraph-elements">
-            CFK Trial Lawyers For The People has experience in several wrongful
+            CFK Trial Lawyers For The People have experience in several wrongful
             death cases. Our attorneys have been there to answer any questions
             that our potential clients or their families have had after the
             death of a loved one. Anytime, anywhere – that’s our philosophy when
@@ -76,7 +76,7 @@ export default function MobileWrongfulDeath() {
             style={{
               fontWeight: "700",
               color: "#c39d63",
-              padding: "2rem 0 0 1rem",
+              padding: "0 0 0 1rem",
               fontSize: "2rem",
               textAlign: "left",
             }}

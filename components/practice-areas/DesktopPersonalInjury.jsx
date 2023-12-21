@@ -102,7 +102,7 @@ export default function DesktopPersonalInjury() {
             Have You Been Injured In An Accident? Do You Have Legal Questions?
           </p>
           <p className="mission-statement-paragraph-elements">
-            Trial Lawyers For The People represents clients who have been
+            CFK Trial Lawyers For The People represents clients who have been
             injured in accidents. If you have a potential claim or legal
             question, contact us here. Free Case Evaluation
           </p>
@@ -209,7 +209,7 @@ export default function DesktopPersonalInjury() {
             fully recover from a traumatic brain injury. It is vital that a
             person gets the best medical care they can if they have suffered a
             TBI, so they can be put on the best path to recovery. In California,
-            Lawyers For The People knows the best brain specialists and can help
+            CFK Trial Lawyers For The People knows the best brain specialists and can help
             you find the right person to help you recover.
           </p>
           <p
@@ -320,7 +320,7 @@ export default function DesktopPersonalInjury() {
           another person or entity, we recommend speaking with a lawyer.
           California is a fault state which means that a personal injury
           accident settlement is directly related to the degree of fault of the
-          liable party. Lawyers For The People is happy to answer any questions
+          liable party. CFK Trial Lawyers For The People is happy to answer any questions
           you have regarding this. Our legal consultations are free.
         </p>
       </div>

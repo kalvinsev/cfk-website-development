@@ -50,8 +50,7 @@ export default function MobileCatastrophicInjury() {
             impact, those who are suffering will need proper treatment and
             complete justice. Rather than going about this injury alone, or with
             an unreliable insurance company, you should consider the legal
-            assistance and knowledge of Creary, Fletcher and King, Trial
-            Lawyers.
+            assistance and knowledge of CFK Trial Lawyers for the people.
           </p>
         </div>
 
@@ -61,7 +60,7 @@ export default function MobileCatastrophicInjury() {
             style={{
               fontWeight: "700",
               color: "#c39d63",
-              padding: "2rem 0 0 1rem",
+              padding: "0 0 0 1rem",
               fontSize: "2rem",
               textAlign: "left",
             }}

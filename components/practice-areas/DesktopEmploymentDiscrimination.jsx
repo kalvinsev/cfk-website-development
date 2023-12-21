@@ -97,7 +97,7 @@ export default function DesktopEmploymentDiscrimination() {
             Have You Experienced Discrimination at Work?
           </p>
           <p className="mission-statement-paragraph-elements">
-            Trial Lawyers For The People represents clients who have been
+            CFK Trial Lawyers For The People represents clients who have been
             discriminated against in the workplace.
           </p>
           <p
@@ -197,7 +197,7 @@ export default function DesktopEmploymentDiscrimination() {
             is not impossible. The best thing to do would be to ask a lawyer
             what your options are. Consultations are free, and the advice could
             prove to be invaluable to not only yourself but your coworkers who
-            may also be in a bad situation. Lawyers For the People has
+            may also be in a bad situation. CFK Trial Lawyers For the People has
             represented several victims of workplace discrimination, and we
             would be happy to walk you through the process.
           </p>
