@@ -53,7 +53,9 @@ export default function DesktopCrearyBioPage() {
             over 100 jury trials. Mr. Creary has handled major federal RICO
             cases and major federal narcotics cases. He has handled complex
             white collar criminal cases on both the state and federal level, as
-            well as a variety of cases in the civil arena.
+            well as a variety of cases in the civil arena.  Mr. Creary has a strong reputation for aggressive representation and
+          for getting results for his clients.  Mr. Creary has a strong reputation for aggressive representation and
+          for getting results for his clients.
           </p>
         </div>
       </div>
@@ -67,8 +69,7 @@ export default function DesktopCrearyBioPage() {
             fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
           }}
         >
-          Mr. Creary has a strong reputation for aggressive representation and
-          for getting results for his clients. He is a native of the Los Angeles
+          He is a native of the Los Angeles
           area where he resided for most of his life. He graduated from the
           prestigious Beverly Hills High School, then went on to receive his
           Bachelor of Arts degree from UCLA, finally earning his Juris Doctor

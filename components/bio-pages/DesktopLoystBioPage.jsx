@@ -36,7 +36,7 @@ export default function DesktopLoystBioPage() {
           </p>
           <p
             style={{
-              lineHeight: "30px",
+              lineHeight: "35px",
               fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
             }}
           >
@@ -55,7 +55,11 @@ export default function DesktopLoystBioPage() {
             emerging companies to entrepreneurs, professionals, hourly employees
             and artists. He has represented businesses and individuals involved
             in entertainment, technology, media, real estate, financial
-            services, consumer products, and more.
+            services, consumer products, and more. Consistent with his focus on employment and complex litigation, Mr.
+          Fletcher has extensive experience in consumer and employment class
+          action litigation, has played a significant role in large and complex
+          class cases, and currently serves as class counsel representing
+          consumers and employees across California.
           </p>
         </div>
         <img
@@ -64,27 +68,13 @@ export default function DesktopLoystBioPage() {
         />
       </div>
       <div>
+        
         <p
           style={{
             padding: "1rem 0",
             color: "white",
             textAlign: "left",
-            lineHeight: "30px",
-            fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
-          }}
-        >
-          Consistent with his focus on employment and complex litigation, Mr.
-          Fletcher has extensive experience in consumer and employment class
-          action litigation, has played a significant role in large and complex
-          class cases, and currently serves as class counsel representing
-          consumers and employees across California.
-        </p>
-        <p
-          style={{
-            padding: "1rem 0",
-            color: "white",
-            textAlign: "left",
-            lineHeight: "30px",
+            lineHeight: "35px",
             fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
           }}
         >
@@ -122,7 +112,7 @@ export default function DesktopLoystBioPage() {
         >
           <p
             style={{
-              lineHeight: "30px",
+              lineHeight: "40px",
               fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
               paddingLeft: "2rem",
             }}

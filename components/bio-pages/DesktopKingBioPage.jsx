@@ -40,7 +40,7 @@ export default function DesktopKingBioPage() {
           </p>
           <p
             style={{
-              lineHeight: "30px",
+              lineHeight: "35px",
               fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
             }}
           >
@@ -56,20 +56,7 @@ export default function DesktopKingBioPage() {
             claims for his clients. In 2015, Stephen served as lead trial lawyer
             on a team of lawyers that obtained a record-setting $40 million
             non-economic wrongful death verdict in Riverside County in 2015.
-          </p>
-        </div>
-      </div>
-      <div>
-        <p
-          style={{
-            padding: "1rem 0",
-            color: "white",
-            textAlign: "left",
-            lineHeight: "30px",
-            fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
-          }}
-        >
-          Stephen has been successful in actions against governmental entities
+            Stephen has been successful in actions against governmental entities
           such as the Los Angeles County Sheriff’s Department and the Los
           Angeles County Department of Children and Family Services. In 2015,
           Stephen obtained a $1.1 million verdict against the Los Angeles
@@ -79,7 +66,11 @@ export default function DesktopKingBioPage() {
           been success in gaining favorable settlements for his clients
           including a recent $3 million settlement in a wrongful death case
           against the Los Angeles Sherriff’s Department.
-        </p>
+          </p>
+        </div>
+      </div>
+      <div>
+       
         <p
           style={{
             padding: "1rem 0",
@@ -89,18 +80,7 @@ export default function DesktopKingBioPage() {
             fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
           }}
         >
-          Stephen is an instructor at the Gerry Spence Method and Trial Lawyers
-          University trial programs where he shares his knowledge of trial
-          techniques with plaintiff trial lawyers from all over the country. In
-          2023, Stephen served as the President of the John M. Langston Bar
-          Association, the largest and most influential African American bar
-          association in Southern California. He also serves on the executive
-          board of the California Association of Black Lawyers (CABL) and the
-          Los Angeles Trial Lawyers Charity Association. Stephen has been
-          selected as the Most Influential Minority by the Los Angeles Business
-          Journal and has been recognized as the National Black Top 100 Lawyers,
-          the National Trial Top 100 Lawyers and the National Top 10 Civil
-          Rights Lawyers.
+         
         </p>
       </div>
       <div style={{ display: "flex", alignItems: "center" }}>
@@ -116,18 +96,22 @@ export default function DesktopKingBioPage() {
         >
           <p
             style={{
-              lineHeight: "30px",
+              lineHeight: "35px",
               fontSize: "calc(var(--font-heading-scale) * 1.4rem)",
             }}
           >
-            Stephen King’s commitment to the legal field has extended to his
-            membership in the prestigious Melvin Belli Society as well as the
-            American Board of Trial Advocates (ABOTA). Both organizations are
-            dedicated to the preservation and promotion of the Seventh
-            Amendment, guaranteeing the right to civil jury trials. It is the
-            utmost honor and one of the most prestigious recognitions a trial
-            lawyer can achieve to be accepted into these organizations as they
-            are merit based and lawyers can join by invitation only.
+             Stephen is an instructor at the Gerry Spence Method and Trial Lawyers
+          University trial programs where he shares his knowledge of trial
+          techniques with plaintiff trial lawyers from all over the country. In
+          2023, Stephen served as the President of the John M. Langston Bar
+          Association, the largest and most influential African American bar
+          association in Southern California. He also serves on the executive
+          board of the California Association of Black Lawyers (CABL) and the
+          Los Angeles Trial Lawyers Charity Association. Stephen has been
+          selected as the Most Influential Minority by the Los Angeles Business
+          Journal and has been recognized as the National Black Top 100 Lawyers,
+          the National Trial Top 100 Lawyers and the National Top 10 Civil
+          Rights Lawyers.
           </p>
         </div>
         <img

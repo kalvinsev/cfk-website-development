@@ -52,7 +52,7 @@ export default function MobileCivilRights() {
             right to protest have come in many forms. Police have thwarted
             demonstrations through mass wrongful arrests, illegal use of force
             for dispersal, or curfews. Civil Rights Lawyer from CFK Trial
-            Lawyers For The People represents clients who have had their rights
+            Lawyers For The People represent clients who have had their rights
             violated during protests by either being injured or wrongfully
             arrested by police.
           </p>
@@ -79,10 +79,10 @@ export default function MobileCivilRights() {
               textAlign: "center",
             }}
           >
-            Have you been victimized by Police?
+            Have you been victimized by the Police?
           </p>
           <p className="mission-statement-paragraph-elements">
-            CFK Trial Lawyers For The People represents clients who have been
+            CFK Trial Lawyers For The People represent clients who have been
             victimized by police when exercising their civil rights. If you have
             a potential claim or legal question, contact us here.
           </p>
@@ -262,7 +262,7 @@ export default function MobileCivilRights() {
           Seek Medical Attention (If Necessary)
         </p>
         <p className="mission-statement-paragraph-elements">
-          Lawyers For The People always advocates seeking medical attention
+          CFK Trial Lawyers For The People always advocates seeking medical attention
           immediately if you have been injured during a protest. A doctor can
           help document your injuries and get you on the path to recovery
         </p>
@@ -303,7 +303,7 @@ export default function MobileCivilRights() {
           If you or someone you know have had their rights as a protestor
           violated by police, you may have grounds for a civil lawsuit. If you
           have any questions about how to move forward with a civil claim,
-          Lawyers For The People can help you figure out your next steps. Our
+          CFK Trial Lawyers For The People can help you figure out your next steps. Our
           legal consultation is free.
         </p>
       </div>

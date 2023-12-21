@@ -71,16 +71,7 @@ export default function MobileKingBioPage() {
               National Black Top 100 Lawyers, the National Trial Top 100 Lawyers
               and the National Top 10 Civil Rights Lawyers.
             </p>
-            <p className="mission-statement-paragraph-elements">
-              Stephen King’s commitment to the legal field has extended to his
-              membership in the prestigious Melvin Belli Society as well as the
-              American Board of Trial Advocates (ABOTA). Both organizations are
-              dedicated to the preservation and promotion of the Seventh
-              Amendment, guaranteeing the right to civil jury trials. It is the
-              utmost honor and one of the most prestigious recognitions a trial
-              lawyer can achieve to be accepted into these organizations as they
-              are merit based and lawyers can join by invitation only.
-            </p>
+            
           </div>
         </div>
       </div>
