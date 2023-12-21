@@ -139,6 +139,14 @@ div .header-p-container {
   color: #807e7e;
 }
 
+div .header-p-container-mobile {
+  display: flex;
+  flex-direction: column;
+  /* color: red; */
+  color: #807e7e;
+}
+
+
 div .header-body-image p {
   font-size: calc(var(--font-heading-scale) * 1.9rem);
   /* color: #807e7e; */
@@ -151,6 +159,13 @@ div .header-body-image p {
 
 div .header-p-container span {
   font-size: calc(var(--font-heading-scale) * 2.3rem);
+}
+div .header-p-container-mobile span {
+  font-size: calc(var(--font-heading-scale) * 1.4rem);
+}
+
+div .mobile-header-span {
+  font-size: calc(var(--font-heading-scale) * 1.4rem);
 }
 
 div .header-body-image-desktop p {
@@ -168,6 +183,15 @@ div .header-p-container-desktop span {
 }
 
 .header-p-container {
+  position: absolute;
+  background-color: transparent;
+  top: 3%;
+  right: 3%;
+  text-align: right;
+  color: rgb(120, 118, 118);
+}
+
+.header-p-container-mobile {
   position: absolute;
   background-color: transparent;
   top: 3%;

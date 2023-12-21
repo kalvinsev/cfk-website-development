@@ -9,20 +9,21 @@ export default function HeaderMobile() {
       <MobileHeaderBar />
       <div className="header-body-image" style={{ position: "relative" }}>
         <img src={"/static/images/VersionB.jpg"} />
-        <div className="header-p-container">
+        <div className="header-p-container-mobile">
           <span
             style={{
               backgroundColor: "transparent",
               fontWeight: "500",
               textTransform: "uppercase",
+              
             }}
           >
             Trial Lawyers For The People
           </span>
 
-          <p>Specializing in Civil Rights</p>
-          <p>Personal Injury and</p>
-          <p>Employment Law</p>
+          <p style={{fontSize: "1rem"}}>Specializing in Civil Rights</p>
+          <p style={{fontSize: "1rem"}}>Personal Injury and</p>
+          <p style={{fontSize: "1rem"}}>Employment Law</p>
         </div>
         <div className="free-evaluation-button-container" id="febc">
           <FreeCaseEvalutaionButton />
