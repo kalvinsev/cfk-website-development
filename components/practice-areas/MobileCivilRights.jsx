@@ -48,7 +48,7 @@ export default function MobileCivilRights() {
             for dispersal, or curfews.
           </p>
           <p className="mission-statement-paragraph-elements">
-            Civil Rights Lawyers from CFK Trial Lawyers For The People represents
+            Civil Rights Lawyers from CFK Trial Lawyers For The People represent
             clients who have had their rights violated during protests by either
             being injured or wrongfully arrested by police.
           </p>
