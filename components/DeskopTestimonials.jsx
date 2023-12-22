@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
 import { testimonialData } from "./testimonialsData";
-import { bodylogosrcTopRow, bodylogosrcBottomRow } from "./bodylogosource";
+import { bodylogosrcTopRow, bodylogosrcBottomRow, d} from "./bodylogosource";
 
 const CarouselItem = ({ title, content }) => (
   <div className="carousel-item">
@@ -28,9 +28,19 @@ export default function DesktopTestimonials({ data }) {
         style={{
           padding: "0 0 2rem 10rem",
           backgroundColor: "#e2e2e2",
+          display: "flex",
+  flexWrap: "wrap",
+  padding: "2rem 3rem",
         }}
       >
-        <div
+        {d.map((item, index) => {
+       return(
+        <div className="child-container" key={index}>
+          <img src={item.imgURL}/>
+        </div>
+       );
+      })}
+        {/* <div
           style={{
             backgroundColor: "#e2e2e2",
             display: "flex",
@@ -56,8 +66,8 @@ export default function DesktopTestimonials({ data }) {
               </div>
             );
           })}
-        </div>
-        <div
+        </div> */}
+        {/* <div
           style={{
             backgroundColor: "#e2e2e2",
             display: "flex",
@@ -83,7 +93,8 @@ export default function DesktopTestimonials({ data }) {
               </div>
             );
           })}
-        </div>
+        </div> */}
+
       </div>
       <div className="carousel-container" id="testimonials">
         <img

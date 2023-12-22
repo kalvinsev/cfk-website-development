@@ -35,6 +35,12 @@ export default function King() {
       snippet: "Stephen is the G.O.A.T...",
       content:
         "Coming in as a first time offender, I was nervous and naive. But Stephen took the time to listen, not to reply. He listens to understand. He gave me very detailed explanations of my entire situation and worked with me every step of the way. Highly recommend his services!",
+      name: "Jamal Stewart",
+    },
+    {
+      snippet: "Stephen is the G.O.A.T...",
+      content:
+        "Coming in as a first time offender, I was nervous and naive. But Stephen took the time to listen, not to reply. He listens to understand. He gave me very detailed explanations of my entire situation and worked with me every step of the way. Highly recommend his services!",
       name: "Doma Morris",
     },
     {
@@ -89,7 +95,7 @@ export default function King() {
               backgroundColor: "#e2e2e2",
               display: "flex",
               justifyContent: "center",
-              margin: "1rem;",
+              margin: "1rem",
               border: "none",
             }}
           >
@@ -103,6 +109,7 @@ export default function King() {
                       : "individual-testimonial-logo-container-mobile"
                   }
                   key={index}
+                  style={{}}
                 >
                   <Link href={item.path}>
                     <img src={item.imgURL} />
@@ -131,8 +138,6 @@ export default function King() {
           <Carousel
             itemsToShow={1}
             showArrows={false}
-            enableAutoPlay
-            autoPlaySpeed={13000}
             renderPagination={({ pages, activePage, onClick }) => {
               return (
                 <div style={{ display: "flex", flexDirection: "row" }}>
@@ -169,6 +174,16 @@ export default function King() {
             }}
           >
             {kingTestimonialData.map((item, index) => {
+              if(item.name === "Jamal Stewart"){
+                return(
+                 <div className="carousel-item" key={index}>
+                   <video src="/static/images/Testimonial_01.mp4"  height="320" width="240" controls>Video not supported</video>
+                  <p style={{ padding: "2rem 0" }}>
+                    <strong>{item.name}</strong>
+                  </p>
+                 </div>
+                );
+              } else {
               return (
                 <div className="carousel-item" key={index}>
                   <p
@@ -185,7 +200,7 @@ export default function King() {
                     <strong>{item.name}</strong>
                   </p>
                 </div>
-              );
+              );}
             })}
           </Carousel>
         </div>

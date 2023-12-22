@@ -20,13 +20,13 @@ export const bodylogosrcTopRow = [
   {
     imgURL:
       "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-tlc_partner_kjl.png",
-    cName: "individual-testimonial-logo-container tlc",
+    cName: "tlc",
     path: "/",
   },
   {
     imgURL:
       "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-top100_kjl.png",
-    cName: "individual-testimonial-logo-container",
+    cName: "individual-testimonial-logo-container top100",
     path: "/",
   },
 ];
@@ -63,4 +63,70 @@ export const bodylogosrcBottomRow = [
     cName: "individual-testimonial-logo-container",
     path: "/",
   },
+];
+
+
+export const d = [
+  {
+    imgURL:
+      "https://www.omarfigueroa.com/wp-content/uploads/2022/07/sl-badge-l-g-2022.png",
+    cName: "individual-testimonial-logo-container-sup-lawyer",
+    path: "/"
+  },
+  {
+    imgURL: "/static/images/resized.png",
+    cName: "individual-testimonial-logo-container-sup-lawyer",
+    path: "/"
+  },
+  {
+    imgURL:
+      "https://www.caala.org/userassets/LO/LO/userimages/Logos/CAALA%20Attorney.jpg",
+    cName: "individual-testimonial-logo-container-sup-lawyer",
+    path: "/"
+  },
+
+  {
+    imgURL:
+      "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-tlc_partner_kjl.png",
+    cName: "tlc",
+    path: "/"
+  },
+  {
+    imgURL:
+      "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-top100_kjl.png",
+    cName: "individual-testimonial-logo-container top100",
+    path: "/"
+  },
+
+  {
+    imgURL:
+      "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-aaj_kjl.png",
+    cName: "individual-testimonial-logo-container-sup-lawyer-bottom",
+    path: "/"
+  },
+
+  {
+    imgURL: "/static/images/langstonBarAssocImg.png",
+    cName: "individual-testimonial-logo-container-sup-lawyer-bottom",
+    path: "/"
+  },
+  {
+    imgURL:
+      "https://gerryspencemethod.com/_next/image?url=https%3A%2F%2Fcg-gerry-spence-method.s3.amazonaws.com%2Fgerry-spence-method-logo.png&w=640&q=75",
+    cName: "individual-testimonial-logo-container-sup-lawyer-bottom",
+    path: "/"
+  },
+
+  {
+    imgURL:
+      "https://www.kingsjusticelaw.com/wp-content/uploads/2021/04/logo-justice-x-kjl.png",
+    cName: "individual-testimonial-logo-container",
+    path: "/"
+  },
+  {
+    imgURL:
+      "https://calblacklawyers.org/wp-content/uploads/2023/08/CABL_weblogo.png",
+    cName: "individual-testimonial-logo-container",
+    path: "/"
+  }
 ];
