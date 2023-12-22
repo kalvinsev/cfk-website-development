@@ -1,5 +1,4 @@
-import MobileAboutPage from "../../components/MobileAboutPage";
-import DesktopAboutPage from "../../components/DesktopAboutPage";
+
 import MobileKingBioPage from "../../components/bio-pages/MobileKingBioPage";
 import DesktopKingBioPage from "../../components/bio-pages/DesktopKingBioPage";
 import HeaderBar from "../../components/HeaderBar";
@@ -9,12 +8,25 @@ import {
   bodylogosrcBottomRow,
   bodylogosrcTopRow,
 } from "../../components/bodylogosource";
-
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
-
+import { useRef } from "react";
 export default function King() {
+  
+  const videoRef = useRef(null);
+
+  const handlePlay = () => {
+    const overlay = document.getElementById('overlay');
+    overlay.classList.add('video-playing');
+  };
+
+  const handlePause = () => {
+    const overlay = document.getElementById('overlay');
+    overlay.classList.remove('video-playing');
+  };
+
+
   const breakpoint = 700;
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
@@ -176,8 +188,9 @@ export default function King() {
             {kingTestimonialData.map((item, index) => {
               if(item.name === "Jamal Stewart"){
                 return(
-                 <div className="carousel-item" key={index}>
-                   <video src="/static/images/Testimonial_01.mp4"  height="320" width="240" controls>Video not supported</video>
+                 <div className="carousel-item video-container" key={index}>
+                   <video poster="/static/images/IMG_1810.jpg"
+        src="/static/images/Testimonial_01.mp4"  height="320" width="240" controls>Video not supported</video>
                   <p style={{ padding: "2rem 0" }}>
                     <strong>{item.name}</strong>
                   </p>

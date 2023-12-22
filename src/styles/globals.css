@@ -653,6 +653,20 @@ div .cta {
 
 /* carousel styling begin  */
 
+div .video-container {
+  position: relative;
+}
+
+div .overlay {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/static/images/VersionB.jpg');
+    transition: opacity 0.5s ease;
+}
+
 .carousel-item {
 }
 

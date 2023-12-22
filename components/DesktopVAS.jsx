@@ -28,6 +28,14 @@ export default function DesktopVas() {
           <span>$1,100,000.00</span>
           <p>CONSTITUTIONAL VIOLATIONS</p>
         </div>
+        <div className="display-counter">
+          <span>$3,000,000.00</span>
+          <p>EXCESSIVE FORCE</p>
+        </div>
+        <div className="display-counter">
+          <span>$2,250,000.00</span>
+          <p>PREMISES LIABILITY</p>
+        </div>
       </div>
     </div>
   );
