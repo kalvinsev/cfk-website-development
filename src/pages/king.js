@@ -140,8 +140,6 @@ export default function King() {
                       : "individual-testimonial-logo-container-mobile"
                   }
                   key={index}
-                  style={{}}
-                  style={{}}
                 >
                   <Link href={item.path}>
                     <img src={item.imgURL} style={item.path==="cabl" ? {height: "55px"} : {}}/>
