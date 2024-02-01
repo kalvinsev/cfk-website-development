@@ -81,7 +81,7 @@ div .header-desktop-bar {
   align-items: center;
   height: 82px;
   padding: 20px 0 20px 0;
-  background-color: #550707;
+  background-color: #073d87;
 }
 
 div .desktop-header-content {
@@ -95,27 +95,27 @@ div .header-desktop-bar p {
   color: white;
   font-size: 20px;
   padding: 0 20px 0 20px;
-  background-color: #550707;
+  background-color: #073d87;
   border: none;
 }
 
 div .header-desktop-bar span {
   color: white;
   font-size: 30px;
-  background-color: #550707;
+  background-color: #073d87;
 }
 
 div .header-desktop-leftside {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #550707;
+  background-color: #073d87;
 }
 
 div .header-desktop-bar img {
   width: 150px;
   height: 45px;
-  background-color: #550707;
+  background-color: #073d87;
 }
 
 div .header-mobile-bar {
@@ -124,7 +124,7 @@ div .header-mobile-bar {
   align-items: center;
   height: 82px;
   padding: 20px 0 20px 0;
-  background-color: rgb(85, 7, 7);
+  background-color: #073d87;
 }
 
 div .header-mobile-bar img {
@@ -240,12 +240,12 @@ div .navigation-button {
   align-items: center;
   justify-content: center;
   padding-left: 20px;
-  background-color: rgb(85, 7, 7);
+  background-color: #073d87;
 }
 
 .nav-burger-button {
   color: white;
-  background-color: rgb(85, 7, 7);
+  background-color: #073d87;
 }
 
 div .mobile-home-body {
@@ -268,6 +268,15 @@ div .mobile-home-body {
   background-color: transparent;
 }
 
+div .tlftp {
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  background-color: transparent;
+              font-weight: "500";
+              text-transform: "uppercase",
+}
+
 .free-evaluation-button {
   color: white;
   width: 244px;
@@ -276,7 +285,7 @@ div .mobile-home-body {
   border-radius: 5px;
   transition: color 0.5s ease;
   transition: background 0.5s ease;
-  background-color: rgb(85, 7, 7);
+  background-color: #073d87;
 }
 
 .free-evaluation-button:hover {
@@ -481,7 +490,7 @@ div .practice-area-box {
   width: 80vw;
   padding: 20px;
   margin: 10px 0 10px 0;
-  background-color: #550707;
+  background-color: #073d87;
   transition: color 0.5s ease;
   transition: background 0.5s ease;
 }
@@ -490,7 +499,7 @@ div .practice-area-desktop {
   width: 43vw;
   padding: 1.1rem;
   margin: 10px 0 10px 0;
-  background-color: #550707;
+  background-color: #073d87;
   transition: color 0.5s ease;
   transition: background 0.5s ease;
 }
@@ -617,7 +626,7 @@ textarea:hover {
   min-width: 250px;
   max-width: 320px;
   min-height: 70px;
-  background-color: #550707;
+  background-color: #073d87;
   border: 1px solid white;
   font-size: calc(var(--font-heading-scale) * 1.5rem);
   color: white;

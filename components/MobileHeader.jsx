@@ -18,16 +18,27 @@ export default function HeaderMobile() {
               
             }}
           >
-            Trial Lawyers For The People
+            Building legacy while<br></br>building communiy
           </span>
 
-          <p style={{fontSize: "1rem"}}>Specializing in Civil Rights</p>
-          <p style={{fontSize: "1rem"}}>Personal Injury and</p>
-          <p style={{fontSize: "1rem"}}>Employment Law</p>
+          
+          
         </div>
         <div className="free-evaluation-button-container" id="febc">
           <FreeCaseEvalutaionButton />
         </div>
+        <div className=" tlftp"> <span
+            style={{
+              backgroundColor: "transparent",
+              fontWeight: "500",
+              textTransform: "uppercase",
+              fontSize: "calc(var(--font-heading-scale) * 1.6rem)",
+              color: "#807e7e"
+
+            }}
+          >
+            Trial Lawyers for the people
+          </span></div>
       </div>
     </div>
   );

@@ -48,6 +48,24 @@ export default function King() {
       content:
         "Coming in as a first time offender, I was nervous and naive. But Stephen took the time to listen, not to reply. He listens to understand. He gave me very detailed explanations of my entire situation and worked with me every step of the way. Highly recommend his services!",
       name: "Jamal Stewart",
+      poster: "/static/images/IMG_1810.jpg",
+      src: "/static/images/Testimonial_01.mp4"
+    },
+    {
+      snippet: "Stephen is the G.O.A.T...",
+      content:
+        "Coming in as a first time offender, I was nervous and naive. But Stephen took the time to listen, not to reply. He listens to understand. He gave me very detailed explanations of my entire situation and worked with me every step of the way. Highly recommend his services!",
+      name: "Sean",
+      poster: "",
+      // src: "/static/images/SEAN_02.mp4"
+    },
+    {
+      snippet: "Stephen is the G.O.A.T...",
+      content:
+        "Coming in as a first time offender, I was nervous and naive. But Stephen took the time to listen, not to reply. He listens to understand. He gave me very detailed explanations of my entire situation and worked with me every step of the way. Highly recommend his services!",
+      name: "Devin",
+      poster: "",
+      // src: "/static/images/DEVIN_02.mp4"
     },
     {
       snippet: "Stephen is the G.O.A.T...",
@@ -108,6 +126,7 @@ export default function King() {
               display: "flex",
               justifyContent: "center",
               margin: "1rem",
+              margin: "1rem",
               border: "none",
             }}
           >
@@ -122,9 +141,10 @@ export default function King() {
                   }
                   key={index}
                   style={{}}
+                  style={{}}
                 >
                   <Link href={item.path}>
-                    <img src={item.imgURL} />
+                    <img src={item.imgURL} style={item.path==="cabl" ? {height: "55px"} : {}}/>
                   </Link>
                 </div>
               );
@@ -186,11 +206,11 @@ export default function King() {
             }}
           >
             {kingTestimonialData.map((item, index) => {
-              if(item.name === "Jamal Stewart"){
+              if(item.name === "Jamal Stewart" || item.name === "Sean" || item.name === "Devin"){
                 return(
                  <div className="carousel-item video-container" key={index}>
-                   <video poster="/static/images/IMG_1810.jpg"
-        src="/static/images/Testimonial_01.mp4"  height="320" width="240" controls>Video not supported</video>
+                   <video poster={item.poster}
+        src={item.src}  height="320" width="240" controls>Video not supported</video>
                   <p style={{ padding: "2rem 0" }}>
                     <strong>{item.name}</strong>
                   </p>
@@ -213,6 +233,7 @@ export default function King() {
                     <strong>{item.name}</strong>
                   </p>
                 </div>
+              );}
               );}
             })}
           </Carousel>

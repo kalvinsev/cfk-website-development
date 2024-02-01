@@ -72,7 +72,7 @@ export default function MobileTestimonials({ data }) {
                 key={index}
               >
                 <Link href={item.path}>
-                  <img src={item.imgURL} />
+                  <img src={item.imgURL} style={item.path==="cabl" ? {height: "55px"} : {}}/>
                 </Link>
               </div>
             );
