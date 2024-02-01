@@ -234,7 +234,7 @@ export default function King() {
                   </p>
                 </div>
               );}
-              );}
+              
             })}
           </Carousel>
         </div>
