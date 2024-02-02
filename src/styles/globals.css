@@ -153,7 +153,6 @@ div .header-p-container-mobile {
 
 
 div .header-body-image p {
-  font-size: calc(var(--font-heading-scale) * 1.9rem);
   /* color: #807e7e; */
   /* color: red; */
   position: "absolute";
@@ -267,7 +266,7 @@ div .mobile-home-body {
 
 .free-evaluation-button-desktop-container {
   position: absolute;
-  bottom: 15%;
+  bottom: 20%;
   left: 5%;
   background-color: transparent;
 }
