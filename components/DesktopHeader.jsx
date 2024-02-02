@@ -19,6 +19,10 @@ export default function DesktopHeader() {
             Building legacy while building community
           </span>
 
+          <p style={{fontSize: "calc(var(--font-heading-scale) * 1.9rem)"}}>Specializing in Civil Rights</p>
+          <p style={{fontSize: "calc(var(--font-heading-scale) * 1.9rem)"}}>Personal Injury and</p>
+          <p style={{fontSize: "calc(var(--font-heading-scale) * 1.9rem)"}}>Employment Law</p>
+
           {/* <p>Specializing in Civil Rights</p>
           <p>Personal Injury and</p>
           <p>Employment Law</p> */}
