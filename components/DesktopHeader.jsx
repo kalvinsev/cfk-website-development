@@ -16,7 +16,7 @@ export default function DesktopHeader() {
               textTransform: "uppercase",
             }}
           >
-            Building legacy while<br></br>building community
+            Building legacy while building community
           </span>
 
           {/* <p>Specializing in Civil Rights</p>

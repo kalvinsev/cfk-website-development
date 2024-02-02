@@ -18,10 +18,12 @@ export default function HeaderMobile() {
               
             }}
           >
-            Building legacy while<br></br>building communiy
+            Building legacy while building community
           </span>
 
-          
+          <p style={{fontSize: "15px"}}>Specializing in Civil Rights</p>
+          <p style={{fontSize: "15px"}}>Personal Injury and</p>
+          <p style={{fontSize: "15px"}}>Employment Law</p>
           
         </div>
         <div className="free-evaluation-button-container" id="febc">
