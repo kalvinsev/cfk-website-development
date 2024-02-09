@@ -259,7 +259,7 @@ div .mobile-home-body {
 
 .free-evaluation-button-container {
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   left: 5%;
   background-color: transparent;
 }
@@ -273,7 +273,7 @@ div .mobile-home-body {
 
 div .tlftp {
   position: absolute;
-  bottom: 13%;
+  bottom: 3%;
   left: 5%;
   background-color: transparent;
   font-weight: "500";
@@ -451,7 +451,7 @@ div .tmf-section-container {
 
 .read-more-link {
   background-color: transparent;
-  color: #550707;
+  color: #c39d63;
   text-decoration: underline;
 }
 
@@ -564,7 +564,7 @@ div .contact form input {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 0;
-  border: 3px solid #550707;
+  border: 3px solid #073d87;
   font-size: calc(var(--font-heading-scale) * 1.5rem);
   line-height: 40px;
   border-radius: 5px;
@@ -606,7 +606,7 @@ textarea {
   color: black;
   background-color: #ffff;
   padding: 1rem;
-  border: 3px solid #550707;
+  border: 3px solid #073d87;
   font-size: calc(var(--font-heading-scale) * 1.5rem);
   line-height: 20px;
   border-radius: 5px;
