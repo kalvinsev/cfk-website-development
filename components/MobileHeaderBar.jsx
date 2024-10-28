@@ -7,7 +7,7 @@ export default function MobileHeaderBar() {
       </div>
       <img
         src={"/static/images/3-logo.png"}
-        style={{ backgroundColor: "#073d87" }}
+        style={{ backgroundColor: "#550707" }}
       />
       <div></div>
     </div>

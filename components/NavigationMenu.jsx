@@ -32,7 +32,7 @@ export default function NavigationMenu() {
         <HiIcons.HiBars3
           onClick={showSideBar}
           size={35}
-          style={{ backgroundColor: "#073d87" }}
+          style={{ backgroundColor: "#550707" }}
         />
       </Link>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>

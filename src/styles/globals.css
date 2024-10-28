@@ -81,7 +81,8 @@ div .header-desktop-bar {
   align-items: center;
   height: 82px;
   padding: 20px 0 20px 0;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 div .desktop-header-content {
@@ -95,27 +96,31 @@ div .header-desktop-bar p {
   color: white;
   font-size: 20px;
   padding: 0 20px 0 20px;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
   border: none;
 }
 
 div .header-desktop-bar span {
   color: white;
   font-size: 30px;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 div .header-desktop-leftside {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 div .header-desktop-bar img {
   width: 150px;
   height: 45px;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 div .header-mobile-bar {
@@ -124,12 +129,12 @@ div .header-mobile-bar {
   align-items: center;
   height: 82px;
   padding: 20px 0 20px 0;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 div .header-mobile-bar img {
   width: 150px;
-  height: 45px;
 }
 
 .header-span {
@@ -243,12 +248,14 @@ div .navigation-button {
   align-items: center;
   justify-content: center;
   padding-left: 20px;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 .nav-burger-button {
   color: white;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 div .mobile-home-body {
@@ -289,7 +296,8 @@ div .tlftp {
   border-radius: 5px;
   transition: color 0.5s ease;
   transition: background 0.5s ease;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 .free-evaluation-button:hover {
@@ -494,7 +502,8 @@ div .practice-area-box {
   width: 80vw;
   padding: 20px;
   margin: 10px 0 10px 0;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
   transition: color 0.5s ease;
   transition: background 0.5s ease;
 }
@@ -503,7 +512,8 @@ div .practice-area-desktop {
   width: 43vw;
   padding: 1.1rem;
   margin: 10px 0 10px 0;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
   transition: color 0.5s ease;
   transition: background 0.5s ease;
 }
@@ -564,7 +574,7 @@ div .contact form input {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 0;
-  border: 3px solid #073d87;
+  border: 3px solid #550707;
   font-size: calc(var(--font-heading-scale) * 1.5rem);
   line-height: 40px;
   border-radius: 5px;
@@ -606,7 +616,7 @@ textarea {
   color: black;
   background-color: #ffff;
   padding: 1rem;
-  border: 3px solid #073d87;
+  border: 3px solid #550707;
   font-size: calc(var(--font-heading-scale) * 1.5rem);
   line-height: 20px;
   border-radius: 5px;
@@ -630,7 +640,8 @@ textarea:hover {
   min-width: 250px;
   max-width: 320px;
   min-height: 70px;
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
   border: 1px solid white;
   font-size: calc(var(--font-heading-scale) * 1.5rem);
   color: white;
@@ -813,7 +824,8 @@ div .newsletter-container button {
 }
 
 div .newsletter-container button:hover {
-  background-color: #073d87;
+  /* background-color: #073d87; */
+  background-color: #550707;
 }
 
 div .footer-logos {
@@ -1086,3 +1098,11 @@ div .image-container-practice-areas-desktop img {
 
   background-color: transparent;
 }
+
+
+/* change colors everywhere steps:
+- modify MobileHeaderBar.jsx
+- modify DesktopHeaderBar.jsx
+- globals.css
+- NavigationMenu.jsx
+- Contact.jsx */
